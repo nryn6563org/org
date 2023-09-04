@@ -80,6 +80,10 @@ export default {
       },
     },
   },
+  target: 'static', // 정적 웹사이트임을 명시
+  router: {
+    base: '/org/', // github repository 이름 넣기
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
