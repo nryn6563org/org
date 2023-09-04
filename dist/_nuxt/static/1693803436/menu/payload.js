@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/menu", {data:[{_img:{}}],fetch:{},mutations:void 0});
