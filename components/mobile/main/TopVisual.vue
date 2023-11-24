@@ -14,14 +14,18 @@
 
     <div class="txt en">
       <strong>
-        AI company <br />
-        Thinkpool
+        <span
+          >AI Investment Finance <br />
+          Tech Company</span
+        >
+        THINKPOOL
       </strong>
       <span>
-        Thinkpool is a knowledge company, <br />
-        that supports data and super-intelligent <br>
-        scientific decision making <br />
-        in the AI era.
+        ThinkPool is a knowledge <br>
+        company that supports <br>
+        super-intelligent scientific <br>
+        decision-making in the era <br>
+        of data and AI.
       </span>
     </div>
     <!-- text -->
@@ -67,7 +71,10 @@ section {
 .txt strong {
   @apply block text-center text-[32px] text-white font-bold leading-[48px];
 }
-.txt span {
+.txt strong span {
+  @apply text-[28px] font-bold leading-[32px] block pb-2.5;
+}
+.txt > span {
   @apply block text-center text-[16px] leading-6 font-light text-white;
 }
 .scroll_text {

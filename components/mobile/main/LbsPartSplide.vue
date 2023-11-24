@@ -1,12 +1,11 @@
 <template>
   <div
-    class="splide MainPage__splide lbs__splide"
+    class="swiper MainPage__splide lbs__splide"
     role="group"
     aria-label="LBS소개 스와이프"
   >
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide non-bg">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide non-bg">
           <div>
             <div class="txt ko">
               <strong>로그인 보호 서비스</strong>
@@ -17,11 +16,11 @@
               </span>
             </div>
             <div class="txt en">
-              <strong>Login Protection Service</strong>
+              <strong>Login Identity Protection Services</strong>
               <span>
-                By comparing the location of <br />
-                the PC with the location of the mobile phone, <br />
-                it determines illegal logins and prevents hacking.
+                Detect fraudulent logins and <br>
+                prevent hacking by comparing PC <br>
+                and phone locations. 
               </span>
             </div>
 
@@ -29,9 +28,9 @@
               class="vi bg-[url('~/assets/image/main/lbs/vi01.png')] bg-no-repeat bg-[length:96px_93px] ;"
             ></div>
           </div>
-        </li>
+        </div>
         <!-- // -->
-        <li class="splide__slide non-bg">
+        <div class="swiper-slide non-bg">
           <div>
             <div class="txt ko">
               <strong>안심키퍼 서비스</strong>
@@ -42,38 +41,45 @@
             </div>
 
             <div class="txt en">
-              <strong>Safe Keeper Service</strong>
+              <strong>SafeKeeper Service </strong>
               <span>
-                Block unauthorized access <br />
-                to your PC and control your child's <br />
-                excessive use of your PC.
+                Block unauthorized access to your PC and <br>
+                control your child's excessive PC use. 
               </span>
             </div>
             <div
               class="vi bg-[url('~/assets/image/main/lbs/vi02.png')] bg-no-repeat bg-[length:93px_93px] ;"
             ></div>
           </div>
-        </li>
+        </div>
         <!-- // -->
-      </ul>
     </div>
+
+    <div class="swiper-pagination"></div>
   </div>
 </template>
 
 <script scoped>
 export default {
   mounted() {
-    document.addEventListener('DOMContentLoaded', () => {
-      const splide = new Splide('.lbs__splide', {
-        fixedWidth: '256px',
-        fixedHeight: '246px',
-        type: 'slide',
-        gap: '20px',
-        padding: '25px',
-        focus: 'center',
-      })
-      splide.mount()
-    })
+    const script = document.createElement('script')
+    script.src =
+      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+    script.async = true
+    document.body.appendChild(script)
+
+    script.onload = () => {
+      const swiper = new Swiper('.lbs__splide', {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        centeredSlides: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      }).mount()
+      //
+    }
   },
 }
 </script>

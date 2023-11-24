@@ -8,6 +8,8 @@
     <!-- // -->
     <MobileMainRmPart />
     <!-- // -->
+    <MobileMainRnd />
+    <!-- // -->
     <MobileMainNewsList />
     <!-- // -->
     <MobileMainNoticeList />

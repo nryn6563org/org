@@ -8,9 +8,10 @@
     </div>
 
     <div class="en">
-      Thinkpool is <br />
-      Total of <em>97 registered patents</em> and<br />
-      It has <em>11 patent applications</em> <br />
+      ThinkPool has a total of <br>
+      <em>97 issued patents</em><br>
+      and<br />
+      <em>11 pending patent applications.</em>
     </div>
   </section>
 </template>

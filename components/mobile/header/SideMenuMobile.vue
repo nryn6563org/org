@@ -1,6 +1,6 @@
 <template>
   <button>
-    <nuxt-link to="/menu">
+    <nuxt-link to="/">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"

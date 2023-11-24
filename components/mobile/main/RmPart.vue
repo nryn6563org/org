@@ -1,25 +1,25 @@
 <template>
-  <section>
-    <div class="mainTopTitle use-bg">
-      <em>국가R&D</em>
-      <strong>연구개발 및 <br />국책과제 수행</strong>
-    </div>
-    <!-- mainTopTitle -->
+    <section>
+        <div class="mainTopTitle">
+            <em>RM Part</em>
+            <strong class="ko">RM사업</strong>
+            <strong class="en">RM Business</strong>
+        </div>
+        <!-- mainTopTitle -->
+        <div class="mainTopTitleGuide">
+            <span>Risk Management</span>
+        </div>
+        <!-- mainTopTitleGuide -->
 
-    <div class="mainTopTitle use-bg">
-      <em>Nation R&D</em>
-      <strong>Research and development and <br />national project</strong>
-    </div>
-
-    <div class="mainTopCardSlider">
-      <MobileMainRmPartSplide />
-    </div>
-  </section>
+        <div class="mainTopCardSlider">
+            <MobileMainRmPartSplide />
+        </div>
+        <!-- mainTopCardSlider -->
+    </section>
 </template>
 
 <style scoped>
-section {
-  @apply w-full h-fit flex bg-slate-800 float-left flex-col justify-center items-center gap-7
-  pt-[50px] pb-[40px];
-}
+    section {
+        @apply w-full h-fit flex bg-white float-left flex-col justify-center items-center gap-7 pt-[50px] pb-[40px];
+    }
 </style>

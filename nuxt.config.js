@@ -7,7 +7,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=360px' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
@@ -16,11 +16,11 @@ export default {
       {
         rel: 'stylesheet',
         type: 'text/css',
-        href: '//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css',
+        href: 'https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css',
       },
       {
         rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css',
+        href: 'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css',
       },
       {
         rel: 'preconnect',
@@ -38,8 +38,8 @@ export default {
     ],
     script: [
       {
-        src: 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js',
-        defer: false,
+        src: 'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js',
+        defer: true,
       },
       // 추가적인 스크립트를 필요에 따라 설정
     ],

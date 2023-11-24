@@ -9,12 +9,15 @@
     <!-- mainTopTitle -->
 
     <div class="mainTopTitleGuide">
-      <span class="ko">
-        Protect your information and <br />
-        pursue convenience with <br />
-        location-based services.
+      <span class="ko"> 
+        위치기반서비스를 통해 고객의 정보를<br>
+        보호하고 편의성을 추구합니다.
       </span>
-      <span class="en"></span>
+      <span class="en">
+        We use location-based services to <br>
+        protect your information and provide <br>
+        convenience.
+      </span>
     </div>
     <!-- mainTopTitleGuide -->
 

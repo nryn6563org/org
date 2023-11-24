@@ -1,11 +1,17 @@
 <template>
   <div class="family_site_select">
     <div v-if="showContent" class="dropMenu">
-      <button>
+      <button class="ko">
         <nuxt-link to="/">라씨매매비서</nuxt-link>
       </button>
-      <button>
+      <button class="en">
+        <nuxt-link to="/">Rassi Sales Secretary</nuxt-link>
+      </button>
+      <button class="ko">
         <nuxt-link to="/">AI 증권사</nuxt-link>
+      </button>
+      <button class="en">
+        <nuxt-link to="/">AI Stock</nuxt-link>
       </button>
     </div>
     <!-- dropMenu -->

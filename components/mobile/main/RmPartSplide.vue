@@ -1,99 +1,82 @@
 <template>
   <div
-    class="splide MainPage__splide rm__splide"
+    class="swiper MainPage__splide Rm__splide"
     role="group"
-    aria-label="AI증권사 소개 스와이프"
+    aria-label="LBS소개 스와이프"
   >
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide rm non-bg">
-          <div>
-            <div
-              class="vi bg-[url('~/assets/image/main/rm/vi01.png')] bg-no-repeat bg-[length:101px_87px] ;"
-            ></div>
-
-            <div class="txt ko">
-              <span>
-                액티브시니어 생애설계와 자기계발 <br />
-                지원을 위한 런케이션 서비스 개발
-              </span>
-            </div>
-
-            <div class="txt en">
-              <span>
-                Development of Running <br />
-                Service for Life Design and <br />
-                Self-Development <br />
-                Support for Active Senior
-              </span>
-            </div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div>
+          <div class="txt ko">
+            <strong>RMS <br />(자동대출) 통제시스템</strong>
+            <span>
+              초개인화, 초지능화에 기반한 <br />스마트한 자산운용이 시작됩니다.
+            </span>
           </div>
-        </li>
-        <!-- // -->
-
-        <li class="splide__slide rm non-bg">
-          <div>
-            <div
-              class="vi bg-[url('~/assets/image/main/rm/vi02.png')] bg-no-repeat bg-[length:92px_94px] ;"
-            ></div>
-
-            <div class="txt ko">
-              <span> 우수기업연구소 <br />육성사업(ATC+) </span>
-            </div>
-
-            <div class="txt en">
-              <span>
-                Excellent Enterprise <br />
-                Research Institute <br />
-                Nurturing project(ATC+)
-              </span>
-            </div>
+          <div class="txt en">
+            <strong>RMS <br />Automated Loan Control System</strong>
+            <span>
+              Smart wealth management based on <br>
+              hyper-personalization and hyper-intelligence begins.
+            </span>
           </div>
-        </li>
-        <!-- // -->
 
-        <li class="splide__slide rm non-bg">
-          <div>
-            <div
-              class="vi bg-[url('~/assets/image/main/rm/vi03.png')] bg-no-repeat bg-[length:92px_85px] ;"
-            ></div>
-
-            <div class="txt ko">
-              <span>
-                빅데이터및 AI기반의 투자 및 <br />자산관리지원 서비스 시스템
-                개발
-              </span>
-            </div>
-
-            <div class="txt en">
-              <span>
-                Development of an investment <br />
-                and asset management support service <br />
-                system based on big data and AI
-              </span>
-            </div>
+          <div
+            class="vi bg-[url('~/assets/image/main/rm/vi01.png')] bg-no-repeat bg-[length:96px_93px] ;"
+          ></div>
+        </div>
+      </div>
+      <!-- // -->
+      <div class="swiper-slide">
+        <div>
+          <div class="txt ko">
+            <strong>소상공인 대출 <br />리스크관리 솔루션</strong>
+            <span>
+              박테이터와 AI에 기반하여 다양한 <br />리스크를 사전에 예측하고
+              관리합니다.
+            </span>
           </div>
-        </li>
-        <!-- // -->
-      </ul>
+
+          <div class="txt en">
+              <strong>Small Business Lending Risk <br>Management Solutions </strong>
+              <span>
+                Proactively predict and manage <br>
+                various risks based on big data and AI. 
+              </span>
+            </div>
+          <div
+            class="vi bg-[url('~/assets/image/main/rm/vi02.png')] bg-no-repeat bg-[length:93px_93px] ;"
+          ></div>
+        </div>
+      </div>
+      <!-- // -->
     </div>
+
+    <div class="swiper-pagination"></div>
   </div>
 </template>
 
 <script scoped>
 export default {
   mounted() {
-    document.addEventListener('DOMContentLoaded', () => {
-      const splide = new Splide('.rm__splide', {
-        fixedWidth: '273',
-        fixedHeight: '226',
-        type: 'slide',
-        gap: '20px',
-        padding: '20px',
-        focus: 'center',
-      })
-      splide.mount()
-    })
+    const script = document.createElement('script')
+    script.src =
+      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+    script.async = true
+    document.body.appendChild(script)
+
+    script.onload = () => {
+      const swiper = new Swiper('.Rm__splide', {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        centeredSlides: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      }).mount()
+      //
+    }
   },
 }
 </script>

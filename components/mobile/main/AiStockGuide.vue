@@ -7,7 +7,7 @@
 
     <div class="mainTopTitle en">
       <em>AI Part</em>
-      <strong>AI Securities Company</strong>
+      <strong>AI Securities</strong>
     </div>
     <!-- mainTopTitle -->
     <div class="mainTopTitleGuide ko">
@@ -23,14 +23,9 @@
 
     <div class="mainTopTitleGuide en">
       <span>
-        It provides investment <br />
-        support services based on
-        <em
-          >big data, <br />
-          AI, <br />
-          super personalization, <br />
-          and super intelligence
-        </em>
+        We provide investment support <br />
+        services based on big data, AI, and <br />
+        hyper-personalization.
       </span>
     </div>
     <!-- mainTopTitleGuide -->

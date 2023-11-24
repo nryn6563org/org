@@ -1,5 +1,5 @@
 <template>
-  <div id="container"></div>
+  <SubPage />
 </template>
 
 <script>

@@ -4,6 +4,8 @@
 
 * {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 html,
@@ -18,7 +20,7 @@ em {
 .kor *.en {
   @apply hidden !important;
 }
-.eng *.ko{
+.eng *.ko {
   @apply hidden !important;
 }
 
@@ -54,59 +56,63 @@ em {
   @apply text-indigo-500;
 }
 
-.MainPage__splide .splide__slide {
+.MainPage__splide .swiper-slide {
   @apply w-[256px] h-[246px] bg-gray-100 rounded-[12px] overflow-hidden;
 }
-.MainPage__splide .splide__slide.non-bg {
+.MainPage__splide .swiper-slide.non-bg {
   @apply bg-white;
 }
-.MainPage__splide .splide__slide > div {
+.MainPage__splide .swiper-slide > div {
   @apply w-[206px] h-[196px]  flex flex-col justify-between mx-[25px] my-[25px];
 }
-.MainPage__splide .splide__slide div .txt {
+.MainPage__splide .swiper-slide div .txt {
   @apply block w-full;
 }
-.MainPage__splide .splide__slide div .txt strong {
+.MainPage__splide .swiper-slide div .txt strong {
   @apply block text-[16px] font-bold leading-6 tracking-[-0.176px] text-neutral-900;
 }
-.MainPage__splide .splide__slide div .txt span {
-  @apply block text-[14px] font-light tracking-[-0.154px] text-neutral-900;
+.MainPage__splide .swiper-slide div .txt.en strong {
+  @apply text-[13px];
 }
-.MainPage__splide .splide__slide div .vi {
+.MainPage__splide .swiper-slide div .txt span {
+  @apply block text-[14px] font-light tracking-[-0.154px] text-neutral-900 mt-[6px];
+}
+.MainPage__splide .swiper-slide div .txt.en span {
+  @apply text-[11px];
+}
+.MainPage__splide .swiper-slide div .vi {
   @apply flex justify-end bg-blend-multiply w-full h-[100px] bg-right-bottom bg-gray-100;
 }
-.MainPage__splide .splide__slide.non-bg div .vi {
+
+.MainPage__splide .swiper-slide.non-bg div .vi {
   @apply bg-white;
 }
-.MainPage__splide .splide__slide.rm {
+.MainPage__splide .swiper-slide.rm {
   @apply w-[273px] h-[226px] bg-white;
 }
-.MainPage__splide .splide__slide.rm > div {
+.MainPage__splide .swiper-slide.rm > div {
   @apply w-full h-[226px] flex flex-col justify-between m-0 gap-0;
 }
-.MainPage__splide .splide__slide.rm div .vi {
+.MainPage__splide .swiper-slide.rm div .vi {
   @apply h-[140px] bg-center bg-white;
 }
-.MainPage__splide .splide__slide.rm div .txt {
+.MainPage__splide .swiper-slide.rm div .txt {
   @apply flex w-full h-[86px] items-center justify-center bg-gray-100 text-center;
 }
-.splide:not(.is-overflow) .splide__pagination {
+.splide:not(.is-overflow) .swiper-pagination {
   @apply flex;
 }
-.MainPage__splide .splide__pagination {
+.MainPage__splide .swiper-pagination {
   @apply relative flex justify-center w-full mt-[30px];
 }
-.MainPage__splide .splide__pagination__page {
-  @apply w-1 h-1 rounded-full bg-zinc-300 p-0;
+.MainPage__splide .swiper-pagination .swiper-pagination-bullet {
+  @apply w-1 h-1.5 rounded-full bg-zinc-500 p-0 bg-opacity-100;
 }
-.MainPage__splide.lbs__splide .splide__pagination__page {
-  @apply w-1 h-1 rounded-full bg-white p-0;
-}
-.MainPage__splide .splide__pagination__page.is-active {
-  @apply bg-indigo-500 w-4 h-1 rounded-[5px] opacity-100;
-}
-.MainPage__splide .splide__arrow {
-  @apply hidden;
+/* .MainPage__splide.lbs__splide .swiper-pagination .swiper-pagination-bullet {
+  @apply w-1 h-1 rounded-full bg-white p-0 bg-opacity-100;
+} */
+.MainPage__splide .swiper-pagination .swiper-pagination-bullet-active {
+  @apply bg-[#5368FF] w-5 h-1.5 rounded-[5px] opacity-100 !important;
 }
 
 .mainTopCardSlider {
@@ -114,7 +120,7 @@ em {
 }
 
 .MainNewsList {
-  @apply block mt-6 w-full px-4;
+  @apply block w-full px-4;
 }
 .MainNewsList .list {
   @apply w-full flex flex-col py-3 border-t-[1px] border-gray-200;
@@ -143,7 +149,7 @@ em {
 
 /*  ======================== Menu ========================  */
 .ch-lang {
-  @apply fixed top-[50px] w-full max-w-xl mx-auto h-10 flex items-center justify-end shadow-md px-5 gap-1 bg-white z-20;
+  @apply fixed top-[50px] w-full max-w-xl mx-auto py-[13px] flex items-center justify-end px-5 gap-1 bg-white z-20 border-b-[1px] border-[#F0F0F0];
 }
 
 .ch-lang button {
@@ -153,7 +159,7 @@ em {
   @apply border-indigo-500 text-indigo-500;
 }
 .globalNavigation {
-  @apply w-full mt-4;
+  @apply w-full;
 }
 .globalNavigation .mn {
   @apply w-full min-h-[60px] border-b-[1px] border-gray-200 block;
@@ -161,10 +167,18 @@ em {
 .globalNavigation .depth1 {
   @apply flex px-5 h-[60px] items-center justify-between w-full;
 }
+.globalNavigation .depth1 svg {
+  transform: rotate(0deg);
+  transition: ease 0.35s;
+}
+.globalNavigation .active .depth1 svg {
+  transform: rotate(-180deg);
+  transition: ease 0.35s;
+}
 .globalNavigation .depth2 {
   @apply hidden flex-col items-start h-0 gap-[10px] px-5 py-[15px] bg-gray-100 opacity-0;
 }
-.globalNavigation .depth2.active {
+.globalNavigation .active .depth2 {
   @apply flex h-auto transition-all duration-700 opacity-100;
 }
 .globalNavigation .depth2 .depth2Part {

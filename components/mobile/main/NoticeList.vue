@@ -3,7 +3,7 @@
     <div class="TopTitleButton">
       <button>
         <strong class="ko">공지사항</strong>
-        <strong class="en">공지사항</strong>
+        <strong class="en">Notice</strong>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -25,11 +25,15 @@
     <!-- //TopTitleButton -->
 
     <div class="MainNewsList">
-      <div class="list">
+      <button class="list">
         <div class="top">
-          <span>
+          <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고
+          </span>
+          <span class="en">
+            Won the Prime Minister's Award for MeritoriWon the Prime Minister's Award for MeritoriWon 
+            the Prime Minister's Award for MeritoriWon the Prime Minister's Award for Meritori
           </span>
         </div>
         <!-- top -->
@@ -37,14 +41,18 @@
           <span>2023.01.01</span>
         </div>
         <!-- date -->
-      </div>
+      </button>
       <!-- list -->
 
-      <div class="list">
+      <button class="list">
         <div class="top">
-          <span>
+          <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고
+          </span>
+          <span class="en">
+            Won the Prime Minister's Award for MeritoriWon the Prime Minister's Award for MeritoriWon 
+            the Prime Minister's Award for MeritoriWon the Prime Minister's Award for Meritori
           </span>
         </div>
         <!-- top -->
@@ -52,14 +60,18 @@
           <span>2023.01.01</span>
         </div>
         <!-- date -->
-      </div>
+      </button>
       <!-- list -->
 
-      <div class="list">
+      <button class="list">
         <div class="top">
-          <span>
+          <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고
+          </span>
+          <span class="en">
+            Won the Prime Minister's Award for MeritoriWon the Prime Minister's Award for MeritoriWon 
+            the Prime Minister's Award for MeritoriWon the Prime Minister's Award for Meritori
           </span>
         </div>
         <!-- top -->
@@ -67,14 +79,18 @@
           <span>2023.01.01</span>
         </div>
         <!-- date -->
-      </div>
+      </button>
       <!-- list -->
 
-      <div class="list">
+      <button class="list">
         <div class="top">
-          <span>
+          <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고
+          </span>
+          <span class="en">
+            Won the Prime Minister's Award for MeritoriWon the Prime Minister's Award for MeritoriWon 
+            the Prime Minister's Award for MeritoriWon the Prime Minister's Award for Meritori
           </span>
         </div>
         <!-- top -->
@@ -82,14 +98,18 @@
           <span>2023.01.01</span>
         </div>
         <!-- date -->
-      </div>
+      </button>
       <!-- list -->
 
-      <div class="list">
+      <button class="list">
         <div class="top">
-          <span>
+          <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고
+          </span>
+          <span class="en">
+            Won the Prime Minister's Award for MeritoriWon the Prime Minister's Award for MeritoriWon 
+            the Prime Minister's Award for MeritoriWon the Prime Minister's Award for Meritori
           </span>
         </div>
         <!-- top -->
@@ -97,7 +117,7 @@
           <span>2023.01.01</span>
         </div>
         <!-- date -->
-      </div>
+      </button>
       <!-- list -->
     </div>
   </section>
@@ -105,7 +125,7 @@
 
 <style scoped>
 section {
-  @apply w-full h-fit flex bg-[#FAFAFC] float-left flex-col justify-center items-center gap-7
+  @apply w-full h-fit flex bg-[#FAFAFC] float-left flex-col justify-center items-center gap-6
   pt-[50px] pb-[40px];
 }
 </style>

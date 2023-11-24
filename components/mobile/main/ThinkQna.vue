@@ -21,7 +21,7 @@
     
     <div class="w-full text-center en"><!-- en -->
       <span class="text-white text-[16px] leading-6 tracking-[-0.176px]">
-        Welcome to Thinkpool! <br />How can I help you?
+        Welcome to Thinkpool! <br />How can we help you?
       </span>
     </div>
     <!--  -->
@@ -30,7 +30,7 @@
       class="mt-[14px] w-[207px] h-[43px] border-[1px] rounded-[50px] border-white text-[14px] font-bold tracking-[-0.154px] text-white hover:bg-white hover:text-[#5368ff] transition-all duration-500"
     >
       <span class="ko">문의하기</span>
-      <span class="en">To inquire</span>
+      <span class="en">Contact us</span>
     </button>
   </section>
 </template>
