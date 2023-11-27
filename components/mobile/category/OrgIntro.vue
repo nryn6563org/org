@@ -17,22 +17,8 @@
     <!-- //home -->
     <MobileCategorySubCate />
     <!--//depth1 -->
-    <div id="depth2" class="dropdown">
-      <button>
-        <span>회사개요</span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <path d="M17 10L12 15L7 10" stroke="#D9D9D9" />
-        </svg>
-      </button>
 
-      <div class="droplist"></div>
-    </div>
+    <MobileCategorySubCate2 />
     <!-- //depth2 -->
   </div>
 </template>
@@ -45,6 +31,12 @@ export default {
 
 <style scoped>
 #category {
-  @apply border-t-[1px] border-[#f0f0f0] border-b-[1px];
+  @apply sticky top-[50px] left-0 border-t-[1px] border-[#f0f0f0] border-b-[1px] flex items-center bg-white z-20;
+}
+#category .home {
+  @apply h-8 w-9 flex justify-center items-center;
+}
+#category div {
+  @apply w-[calc((100%-36px)/2)] h-8 px-2.5 border-l-[1px] border-[#f0f0f0];
 }
 </style>

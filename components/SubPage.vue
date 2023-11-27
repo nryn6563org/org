@@ -1,11 +1,6 @@
 <template>
-  <div id="container">
-    <MobileCategoryOrgIntro />
-  </div>
+  <MobileCategoryOrgIntro />
 </template>
 
 <style scoped>
-#container {
-  @apply w-full block pt-[50px] snap-y relative;
-}
 </style>

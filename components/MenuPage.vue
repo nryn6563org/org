@@ -29,24 +29,26 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <button class="ko">회사개요</button>
-          <button class="en">Corporate Overview</button>
-          <button class="ko">CEO메시지</button>
-          <button class="en">CEO Message</button>
-          <button class="ko">비전</button>
-          <button class="en">VISION</button>
-          <button class="ko">연혁</button>
-          <button class="en">History</button>
-          <button class="ko">특허</button>
-          <button class="en">Patent</button>
-          <button class="ko">주요 수상</button>
-          <button class="en">Major Award</button>
-          <button class="ko">주요 인증</button>
-          <button class="en">Major Certification</button>
-          <button class="ko">복지제도</button>
-          <button class="en">Welfare System</button>
-          <button class="ko">오시는 길</button>
-          <button class="en">Contact</button>
+          <NuxtLink to="/about/overview" class="ko">회사개요</NuxtLink>
+          <NuxtLink to="/about/overview" class="en"
+            >Corporate Overview</NuxtLink
+          >
+          <NuxtLink to="/about/ceo" class="ko">CEO메시지</NuxtLink>
+          <NuxtLink to="/about/ceo" class="en">CEO Message</NuxtLink>
+          <NuxtLink to="/about/vision" class="ko">비전</NuxtLink>
+          <NuxtLink to="/about/vision" class="en">VISION</NuxtLink>
+          <NuxtLink to="/about/orghistory" class="ko">연혁</NuxtLink>
+          <NuxtLink to="/about/orghistory" class="en">History</NuxtLink>
+          <NuxtLink to="/about/patent" class="ko">특허</NuxtLink>
+          <NuxtLink to="/about/patent" class="en">Patent</NuxtLink>
+          <NuxtLink to="/about/award" class="ko">주요 수상</NuxtLink>
+          <NuxtLink to="/about/award" class="en">Major Award</NuxtLink>
+          <NuxtLink to="/about/certification" class="ko">주요 인증</NuxtLink>
+          <NuxtLink to="/about/certification" class="en">Major Certification</NuxtLink>
+          <NuxtLink to="/about/welfare" class="ko">복지제도</NuxtLink>
+          <NuxtLink to="/about/welfare" class="en">Welfare System</NuxtLink>
+          <NuxtLink to="/about/contact" class="ko">오시는 길</NuxtLink>
+          <NuxtLink to="/about/contact" class="en">Contact</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -264,10 +266,11 @@ export default {
 .depth1 > span.en {
   @apply text-neutral-900 text-[18px] font-bold tracking-[-0.22px];
 }
-.depth2 > button {
+.depth2 > NuxtLink {
   @apply text-neutral-900 text-[14px] tracking-[-0.154px] h-[21px];
 }
-.depth2Part > strong, .depth2 > span {
+.depth2Part > strong,
+.depth2 > span {
   @apply text-neutral-900 text-[14px] tracking-[-0.154px] h-[21px] leading-[21px] font-bold;
 }
 .depth2Part > button {
