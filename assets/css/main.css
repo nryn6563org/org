@@ -23,9 +23,6 @@ em {
 .eng *.ko {
   @apply hidden !important;
 }
-*.en {
-  @apply font-Inter;
-}
 #__nuxt,
 #__layout,
 #wrap {
