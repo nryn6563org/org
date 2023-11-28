@@ -82,14 +82,13 @@
           <div class="depth2Part">
             <strong class="ko">AI증권사 Part</strong>
             <strong class="en">PART</strong>
-            <button class="ko">R1. AI-기자</button>
-            <button class="en">R1. AI-Reporter</button>
-            <button class="ko">R2. AI-애널리스트</button>
-            <button class="en">R2. AI-Analysts</button>
-            <button class="ko">R3. AI-PMS(Advisor) 시스템</button>
-            <button class="en">R3. AI-PMS System</button>
-            <button class="ko">R4. AI-Trader</button>
-            <button class="en">R4. AI-Trader</button>
+            <NuxtLink to="/business/securities/reporter" class="ko">R1. AI-기자</NuxtLink>
+            <NuxtLink to="/business/securities/reporter" class="en">R1. AI-Reporter</NuxtLink>
+            <NuxtLink to="/business/securities/analyst" class="ko">R2. AI-애널리스트</NuxtLink>
+            <NuxtLink to="/business/securities/analyst" class="en">R2. AI-Analysts</NuxtLink>
+            <NuxtLink to="/business/securities/advisor" class="ko">R3. AI-PMS(Advisor) 시스템</NuxtLink>
+            <NuxtLink to="/business/securities/advisor" class="en">R3. AI-PMS System</NuxtLink>
+            <NuxtLink to="/business/securities/trader" >R4. AI-Trader</NuxtLink>
           </div>
 
           <!-- //depth2Part -->
@@ -97,20 +96,20 @@
           <div class="depth2Part">
             <strong class="ko">LBS Part</strong>
             <strong class="en">LBS PART</strong>
-            <button class="ko">위치기반 로그인 도용방지 시스템</button>
-            <button class="en">Location-based login theft</button>
-            <button class="ko">안심키퍼서비스</button>
-            <button class="en">prevention system</button>
-            <button class="ko">노쇼노</button>
-            <button class="en">NO show no</button>
+            <NuxtLink to="/business/lbs/location" class="ko">위치기반 로그인 도용방지 시스템</NuxtLink>
+            <NuxtLink to="/business/lbs/location" class="en">Location-based login theft</NuxtLink>
+            <NuxtLink to="/business/lbs/prevention" class="ko">안심키퍼서비스</NuxtLink>
+            <NuxtLink to="/business/lbs/prevention" class="en">prevention system</NuxtLink>
+            <NuxtLink to="/business/lbs/noshowno" class="ko">노쇼노</NuxtLink>
+            <NuxtLink to="/business/lbs/noshowno" class="en">NO show no</NuxtLink>
           </div>
           <!-- //depth2Part -->
 
           <div class="depth2Part">
             <strong class="ko">RM Part</strong>
             <strong class="en">RM PART</strong>
-            <button class="ko">RMS(자동대출)통제시스템</button>
-            <button class="en">RMS System</button>
+            <NuxtLink to="/business/rm/rms" class="ko">RMS(자동대출)통제시스템</NuxtLink>
+            <NuxtLink to="/business/rm/rms" class="en">RMS System</NuxtLink>
           </div>
           <!-- //depth2Part -->
         </div>
@@ -140,10 +139,10 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <button class="ko">국가R&D</button>
-          <button class="en">National R&D</button>
-          <button class="ko">병역특례</button>
-          <button class="en">Mil. Service Exemption</button>
+          <NuxtLink to="/rnd/national" class="ko">국가R&D</NuxtLink>
+          <NuxtLink to="/rnd/national" class="en">National R&D</NuxtLink>
+          <NuxtLink to="/rnd/military" class="ko">병역특례</NuxtLink>
+          <NuxtLink to="/rnd/military" class="en">Mil. Service Exemption</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -171,10 +170,9 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <button class="ko">공지사항</button>
-          <button class="en">National R&D</button>
-          <button class="ko">News</button>
-          <button class="en">Mil. Service Exemption</button>
+          <NuxtLink to="/pr/notice" class="ko">공지사항</NuxtLink>
+          <NuxtLink to="/pr/notice" class="en">Notice</NuxtLink>
+          <NuxtLink to="/pr/news" >News</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -202,8 +200,8 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <button class="ko">IR 바로 가기</button>
-          <button class="en">IR</button>
+          <NuxtLink to="/ir" class="ko">IR 바로 가기</NuxtLink>
+          <NuxtLink to="/ir" class="en">IR</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -231,8 +229,8 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <button class="ko">채용공고</button>
-          <button class="en">Recruit</button>
+          <NuxtLink to="/careers/recruit" class="ko">채용공고</NuxtLink>
+          <NuxtLink to="/careers/recruit" class="en">Recruit</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>

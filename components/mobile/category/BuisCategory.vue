@@ -32,23 +32,47 @@ export default {
   data() {
     return {
       menuItems: [
-        { to: '/about/overview', ko: '기업소개', en: 'About Us' },
+        {
+          to: '/business/securities/',
+          ko: 'AI증권사',
+          en: 'AI Securities Company',
+        },
+        { to: '/business/lbs/location', ko: 'LBS', en: 'LBS' },
+        { to: '/business/rm/rms', ko: 'RM', en: 'RM' },
       ],
       menuItems1: [
-        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
-        { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
-        { to: '/about/vision', ko: '비전', en: 'VISION' },
-        { to: '/about/orghistory', ko: '연혁', en: 'History' },
-        { to: '/about/patent', ko: '특허', en: 'Patent' },
-        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
         {
-          to: '/about/certification',
-          ko: '주요인증',
-          en: 'Major Certification',
+          to: '/business/securities/reporter',
+          ko: 'AI 기자',
+          en: 'AI Reporter',
         },
-        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
-        { to: '/about/contact', ko: '오시는길', en: 'Contact' },
-        // ... 다른 메뉴 아이템들
+        {
+          to: '/business/securities/analyst',
+          ko: 'AI 애널리스트',
+          en: 'AI Analyst',
+        },
+        {
+          to: '/business/securities/advisor',
+          ko: 'AI 어드바이저',
+          en: 'AI Advisor',
+        },
+        { to: '/business/securities/trader', ko: 'AI Trader', en: 'AI Trader' },
+      ],
+      menuItems2: [
+        {
+          to: '/business/lbs/location',
+          ko: '로그인 도용방지',
+          en: 'Login theft',
+        },
+        { to: '/business/lbs/prevention', ko: '안심키퍼', en: 'Prevention' },
+        { to: '/business/lbs/noshowno', ko: '노쇼노', en: 'No show no' },
+      ],
+      menuItems3: [
+        {
+          to: '/business/rm/rms',
+          ko: 'RMS 시스템',
+          en: 'RMS System',
+        },
       ],
     }
   },

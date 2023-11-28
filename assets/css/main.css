@@ -268,3 +268,30 @@ em {
 .history_line .years .month span {
   @apply text-[14px] text-[#444] leading-5 tracking-[-0.154px] block min-h-[20px];
 }
+#securities {
+  @apply bg-[#EFF2FB] pb-[50px];
+}
+#securities .top {
+  @apply w-full pt-[50px] flex flex-col items-center gap-2 px-5;
+}
+#securities .top em {
+  @apply text-[12px] text-[#9395a1] tracking-[-0.132px] leading-4;
+}
+#securities .top span {
+  @apply text-[32px] text-[#141414] tracking-[-0.352px] font-bold leading-10;
+}
+#securities .txt {
+  @apply pt-[45px] flex flex-col gap-1 w-full px-5;
+}
+#securities .txt strong {
+  @apply font-bold text-[16px] text-[#141414] leading-5;
+}
+#securities .txt span {
+  @apply text-[14px] text-[#444] leading-[18px];
+}
+#securities .banner {
+  @apply flex w-full gap-2 flex-wrap justify-between pt-[34px] px-5;
+}
+#securities .banner a {
+  @apply w-[calc((100%-8px)/2)];
+}
