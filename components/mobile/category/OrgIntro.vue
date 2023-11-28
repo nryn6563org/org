@@ -15,17 +15,149 @@
       </svg>
     </button>
     <!-- //home -->
-    <MobileCategorySubCate />
+    <CommonDropdown :dropdown-id="'depth1'" :menu-items="menuItems" />
     <!--//depth1 -->
-
-    <MobileCategorySubCate2 />
+    <CommonDropdown :dropdown-id="'depth2'" :menu-items="menuItems1" />
     <!-- //depth2 -->
   </div>
 </template>
 
 <script>
+import CommonDropdown from '@/components/CommonDropdown.vue'
+
 export default {
-  // ...
+  components: {
+    CommonDropdown,
+  },
+  data() {
+    return {
+      menuItems: [
+        { to: '/about/overview', ko: '기업소개', en: 'About Us' },
+        { to: '/business/', ko: '사업영역', en: 'Business' },
+        {
+          to: '/corporate/',
+          ko: '기업부설연구소',
+          en: 'Corporate Research Center',
+        },
+        { to: '/pr/', ko: '홍보센터', en: 'PR' },
+        { to: '/ir/', ko: 'IR', en: 'IR' },
+        { to: '/careers/', ko: '채용정보', en: 'Careers' },
+        // ... 다른 메뉴 아이템들
+      ],
+      menuItems1: [
+        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
+        { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
+        { to: '/about/vision', ko: '비전', en: 'VISION' },
+        { to: '/about/orghistory', ko: '연혁', en: 'History' },
+        { to: '/about/patent', ko: '특허', en: 'Patent' },
+        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
+        {
+          to: '/about/certification',
+          ko: '주요인증',
+          en: 'Major Certification',
+        },
+        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
+        { to: '/about/contact', ko: '오시는길', en: 'Contact' },
+        // ... 다른 메뉴 아이템들
+      ],
+      menuItems2: [
+        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
+        { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
+        { to: '/about/vision', ko: '비전', en: 'VISION' },
+        { to: '/about/orghistory', ko: '연혁', en: 'History' },
+        { to: '/about/patent', ko: '특허', en: 'Patent' },
+        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
+        {
+          to: '/about/certification',
+          ko: '주요인증',
+          en: 'Major Certification',
+        },
+        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
+        { to: '/about/contact', ko: '오시는길', en: 'Contact' },
+        // ... 다른 메뉴 아이템들
+      ],
+      menuItems3: [
+        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
+        { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
+        { to: '/about/vision', ko: '비전', en: 'VISION' },
+        { to: '/about/orghistory', ko: '연혁', en: 'History' },
+        { to: '/about/patent', ko: '특허', en: 'Patent' },
+        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
+        {
+          to: '/about/certification',
+          ko: '주요인증',
+          en: 'Major Certification',
+        },
+        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
+        { to: '/about/contact', ko: '오시는길', en: 'Contact' },
+        // ... 다른 메뉴 아이템들
+      ],
+      menuItems4: [
+        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
+        { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
+        { to: '/about/vision', ko: '비전', en: 'VISION' },
+        { to: '/about/orghistory', ko: '연혁', en: 'History' },
+        { to: '/about/patent', ko: '특허', en: 'Patent' },
+        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
+        {
+          to: '/about/certification',
+          ko: '주요인증',
+          en: 'Major Certification',
+        },
+        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
+        { to: '/about/contact', ko: '오시는길', en: 'Contact' },
+        // ... 다른 메뉴 아이템들
+      ],
+      menuItems5: [
+        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
+        { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
+        { to: '/about/vision', ko: '비전', en: 'VISION' },
+        { to: '/about/orghistory', ko: '연혁', en: 'History' },
+        { to: '/about/patent', ko: '특허', en: 'Patent' },
+        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
+        {
+          to: '/about/certification',
+          ko: '주요인증',
+          en: 'Major Certification',
+        },
+        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
+        { to: '/about/contact', ko: '오시는길', en: 'Contact' },
+        // ... 다른 메뉴 아이템들
+      ],
+      menuItems6: [
+        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
+        { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
+        { to: '/about/vision', ko: '비전', en: 'VISION' },
+        { to: '/about/orghistory', ko: '연혁', en: 'History' },
+        { to: '/about/patent', ko: '특허', en: 'Patent' },
+        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
+        {
+          to: '/about/certification',
+          ko: '주요인증',
+          en: 'Major Certification',
+        },
+        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
+        { to: '/about/contact', ko: '오시는길', en: 'Contact' },
+        // ... 다른 메뉴 아이템들
+      ],
+    }
+  },
+  mounted() {
+    const currents = document.querySelectorAll('.current')
+    const changes = document.querySelectorAll('.change')
+    currents.forEach((current) => {
+      current.addEventListener('click', () => {
+        current.parentElement
+          .querySelector('.droplist')
+          .classList.toggle('active')
+      })
+    })
+    changes.forEach((change) => {
+      change.addEventListener('click', () => {
+        change.parentElement.classList.toggle('active')
+      })
+    })
+  },
 }
 </script>
 

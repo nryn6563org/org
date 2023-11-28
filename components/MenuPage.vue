@@ -1,8 +1,8 @@
 <template>
   <div id="container">
     <div class="ch-lang">
-      <button class="active">KOR</button>
-      <button>ENG</button>
+      <button :class="{ active: isKorActive }" @click="toggleKor">KOR</button>
+      <button :class="{ active: isEngActive }" @click="toggleEng">ENG</button>
     </div>
     <!-- // languege choice -->
 
@@ -44,7 +44,9 @@
           <NuxtLink to="/about/award" class="ko">주요 수상</NuxtLink>
           <NuxtLink to="/about/award" class="en">Major Award</NuxtLink>
           <NuxtLink to="/about/certification" class="ko">주요 인증</NuxtLink>
-          <NuxtLink to="/about/certification" class="en">Major Certification</NuxtLink>
+          <NuxtLink to="/about/certification" class="en"
+            >Major Certification</NuxtLink
+          >
           <NuxtLink to="/about/welfare" class="ko">복지제도</NuxtLink>
           <NuxtLink to="/about/welfare" class="en">Welfare System</NuxtLink>
           <NuxtLink to="/about/contact" class="ko">오시는 길</NuxtLink>
@@ -241,6 +243,12 @@
 </template>
 <script scoped>
 export default {
+  data() {
+    return {
+      isKorActive: true,
+      isEngActive: false,
+    }
+  },
   mounted() {
     const depth1Menu = document.querySelectorAll('.depth1')
 
@@ -253,6 +261,28 @@ export default {
         depth1.parentElement.classList.add('active')
       })
     })
+  },
+  methods: {
+    toggleKor() {
+      this.isKorActive = !this.isKorActive;
+      if (this.isKorActive) {
+        this.isEngActive = false;
+        document.body.classList.remove('eng');
+        document.body.classList.add('kor');
+      } else {
+        document.body.classList.remove('kor');
+      }
+    },
+    toggleEng() {
+      this.isEngActive = !this.isEngActive;
+      if (this.isEngActive) {
+        this.isKorActive = false;
+        document.body.classList.remove('kor');
+        document.body.classList.add('eng');
+      } else {
+        document.body.classList.remove('eng');
+      }
+    },
   },
 }
 </script>
