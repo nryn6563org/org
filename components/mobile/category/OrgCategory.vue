@@ -15,7 +15,21 @@
       </svg>
     </button>
     <!-- //home -->
-    <CommonDropdown :dropdown-id="'depth1'" :menu-items="menuItems" />
+    <div id="depth1" class="dropdown">
+      <button>
+          <span class="ko">기업소개</span>
+          <span class="en">About Us</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path d="M17 10L12 15L7 10" stroke="#D9D9D9"></path>
+        </svg>
+      </button>
+    </div>
     <!--//depth1 -->
     <CommonDropdown :dropdown-id="'depth2'" :menu-items="menuItems1" />
     <!-- //depth2 -->
@@ -31,9 +45,6 @@ export default {
   },
   data() {
     return {
-      menuItems: [
-        { to: '/about/overview', ko: '기업소개', en: 'About Us' },
-      ],
       menuItems1: [
         { to: '/about/overview', ko: '회사개요', en: 'About Us' },
         { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
@@ -80,5 +91,11 @@ export default {
 }
 #category div {
   @apply w-[calc((100%-36px)/2)] h-8 px-2.5 border-l-[1px] border-[#f0f0f0];
+}
+.dropdown {
+  @apply w-full relative;
+}
+.dropdown > button {
+  @apply h-8 leading-8 w-full flex justify-between items-center text-[12px] text-neutral-900 tracking-[-0.132px];
 }
 </style>
