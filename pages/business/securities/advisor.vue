@@ -1,40 +1,46 @@
 <template>
   <div id="securities">
-    <div class="top">
-      <em>AI Advisor System</em>
-      <span class="ko">AI 어드바이저</span>
-      <span class="en">AI-ADVISOR</span>
-    </div>
+    <CommonTop :top-items='topItems' />
     <!-- // -->
     <div class="cont">
       <div class="fst">
         <span class="ko">AI-Advisor 시스템</span>
         <span class="en">AI-Advisor System</span>
       </div>
-      <div>
+      <div class="bottom-[-63px] left-[31px] gap-7 h-[105px] w-[89px]">
         <span>Step01</span>
         <span class="ko">
           투자 및 재무<br />
           조언 안내
         </span>
-        <span class="en"> Investment and financial advice guidance </span>
+        <span class="en">
+          Investment<br />
+          and financial <br />
+          advice guidance
+        </span>
       </div>
-      <div>
+      <div class="bottom-[-62px] left-[138px] h-[115px] gap-10 w-[86px]">
         <span>Step02</span>
         <span class="ko">
           셀프 서비스<br />
           투자 및 재무 조언
         </span>
-        <span class="en"> Self-service investment and financial advice </span>
+        <span class="en">
+          Self-service <br />
+          investment and <br />
+          financial advice
+        </span>
       </div>
-      <div>
+      <div class="gap-[60px] right-[23px] bottom-[-62px] h-[135px] w-[100px]">
         <span>Step03</span>
         <span class="ko">
           완전 자동화된<br />
           비재량 투자 조언
         </span>
         <span class="en">
-          Fully automated non-discretionary investment advice
+          Fully automated <br />
+          non-discretionary <br />
+          investment advice
         </span>
       </div>
     </div>
@@ -83,17 +89,43 @@
   </div>
 </template>
 
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'AI Advisor System',
+        ko: 'AI 어드바이저',
+        en: 'AI-Advisor',
+      },
+    }
+  },
+}
+</script>
+
+
 <style scoped>
 .cont {
   @apply mt-10 bg-[url('~/assets/image/securities/advisor.png')] bg-cover w-full h-[306px] mx-auto relative;
 }
-.cont > div{
-    @apply absolute;
+.cont > div {
+  @apply absolute flex flex-col items-center;
 }
-.cont > div.fst{
-    @apply w-full text-center leading-5 top-[70px] text-[16px] text-[#5368ff] font-bold tracking-[-0.176px]
+.cont > div span:first-child {
+  @apply text-[#5368ff] text-[14px] tracking-[-0.154px];
 }
-#securities .txt{
-    @apply pt-[100px]
+.cont > div span {
+  @apply text-[12px] text-black tracking-[-0.132px] text-center;
+}
+.cont > div.fst {
+  @apply w-full text-center leading-5 top-[70px] text-[16px] text-[#5368ff] font-bold tracking-[-0.176px];
+}
+#securities .txt {
+  @apply pt-[100px];
 }
 </style>

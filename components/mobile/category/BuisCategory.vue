@@ -15,9 +15,13 @@
       </svg>
     </button>
     <!-- //home -->
-    <CommonDropdown :dropdown-id="'depth1'" :menu-items="menuItems" />
+    <CommonDropdown
+      :dropdown-id="'depth1'"
+      :menu-items="menuItems"
+      @menu-items-click="handleMenuItemClick"
+    />
     <!--//depth1 -->
-    <CommonDropdown :dropdown-id="'depth2'" :menu-items="menuItems1" />
+    <CommonDropdown :dropdown-id="'depth2'" :menu-items="currentSubMenuItems" />
     <!-- //depth2 -->
   </div>
 </template>
@@ -33,12 +37,13 @@ export default {
     return {
       menuItems: [
         {
-          to: '/business/securities/',
-          ko: 'AI증권사',
-          en: 'AI Securities Company',
+          id: 'securities',
+          to: '/business/securities/reporter',
+          ko: 'AI 증권사',
+          en: 'AI Securities',
         },
-        { to: '/business/lbs/location', ko: 'LBS', en: 'LBS' },
-        { to: '/business/rm/rms', ko: 'RM', en: 'RM' },
+        { id: 'lbs', to: '/business/lbs/location', ko: 'LBS', en: 'LBS' },
+        { id: 'rm', to: '/business/rm/rms', ko: 'RM', en: 'RM' },
       ],
       menuItems1: [
         {
@@ -74,7 +79,14 @@ export default {
           en: 'RMS System',
         },
       ],
+      currentSubMenuItems: [],
     }
+  },
+  watch: {
+    $route(newRoute, oldRoute) {
+      // 라우팅이 변경될 때마다 처리
+      this.handleMenuItemClick(newRoute)
+    },
   },
   mounted() {
     const currents = document.querySelectorAll('.current')
@@ -91,6 +103,25 @@ export default {
         change.parentElement.classList.toggle('active')
       })
     })
+    this.handleMenuItemClick(this.$route)
+  },
+  methods: {
+    handleMenuItemClick(route) {
+      const selectedMenuItem = this.menuItems.find((item) =>
+        route.path.includes(item.id)
+      )
+
+      if (selectedMenuItem.id === 'securities') {
+        this.currentSubMenuItems = this.menuItems1
+      } else if (selectedMenuItem.id === 'lbs') {
+        this.currentSubMenuItems = this.menuItems2
+      } else if (selectedMenuItem.id === 'rm') {
+        this.currentSubMenuItems = this.menuItems3
+      } else {
+        // 다른 경우에 대한 처리 또는 필요 시 기본 하위 메뉴 설정
+        this.currentSubMenuItems = []
+      }
+    },
   },
 }
 </script>

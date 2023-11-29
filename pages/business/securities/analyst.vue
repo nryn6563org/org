@@ -1,13 +1,9 @@
 <template>
   <div id="securities">
-    <div class="top">
-      <em>AI Analyst</em>
-      <span class="ko">AI 애널리스트</span>
-      <span class="en"> AI-Robo Analist </span>
-    </div>
+    <CommonTop :top-items='topItems' />
     <!-- // -->
     <div class="cont">
-      <div class="top-[76px] left-[146px] w-[100px]">
+      <div class="top-[60px] left-[146px] w-[100px]">
         <span class="ko">
           투자전략<br />
           시스템
@@ -17,7 +13,7 @@
           Strategy System
         </span>
       </div>
-      <div class="top-1/2 left-[22px] w-[100px] mt-2.5">
+      <div class="top-1/2 left-[22px] w-[100px]">
         <span class="ko">
           자동매매<br />
           시스템
@@ -27,7 +23,7 @@
           Trading Systems
         </span>
       </div>
-      <div class="bottom-[100px] right-[50px] w-[100px]">
+      <div class="bottom-[90px] right-[50px] w-[100px]">
         <span class="ko">
           자산배분<br />
           시스템
@@ -87,12 +83,32 @@
   </div>
 </template>
 
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'AI Analyst',
+        ko: 'AI 애널리스트',
+        en: 'AI-Robo Analist',
+      },
+    }
+  },
+}
+</script>
+
+
 <style scoped>
 .cont {
   @apply mt-[30px] bg-[url('~/assets/image/securities/analyst.png')] bg-cover w-full h-[397px] mx-auto relative;
 }
 .cont > div {
-  @apply absolute text-white text-[14px] tracking-[-0.154px] text-center leading-[18px];
+  @apply absolute text-white text-[14px] tracking-[-0.154px] text-center leading-[18px] flex h-[70px] items-center justify-center;
 }
 .cont > div.lst {
   @apply text-[#5368FF] text-[15px] font-bold leading-5 w-[148px] h-[148px] top-1/2 left-1/2 ml-[-74px] mt-[-74px] flex items-center justify-center;

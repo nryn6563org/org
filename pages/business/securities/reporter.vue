@@ -1,10 +1,6 @@
 <template>
   <div id="securities">
-    <div class="top">
-      <em>AI Reporter</em>
-      <span class="ko">AI 기자</span>
-      <span class="en">AI-Robo Reporter</span>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- // -->
     <div class="cont">
       <div class="top-[7px] left-[104px]">
@@ -76,6 +72,26 @@
     <!-- // -->
   </div>
 </template>
+
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'AI Reporter',
+        ko: 'AI 기자',
+        en: 'AI-Robo Reporter',
+      },
+    }
+  },
+}
+</script>
+
 <style scoped>
 .cont {
   @apply mt-[50px] bg-[url('~/assets/image/securities/reporter.png')] bg-cover w-[298px] h-[331px] mx-auto relative;

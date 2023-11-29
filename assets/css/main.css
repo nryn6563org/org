@@ -271,15 +271,6 @@ em {
 #securities {
   @apply bg-[#EFF2FB] pb-[50px];
 }
-#securities .top {
-  @apply w-full pt-[50px] flex flex-col items-center gap-2 px-5;
-}
-#securities .top em {
-  @apply text-[12px] text-[#9395a1] tracking-[-0.132px] leading-4;
-}
-#securities .top span {
-  @apply text-[32px] text-[#141414] tracking-[-0.352px] font-bold leading-10;
-}
 #securities .txt {
   @apply pt-[45px] flex flex-col gap-1 w-full px-5;
 }
@@ -294,4 +285,17 @@ em {
 }
 #securities .banner a {
   @apply w-[calc((100%-8px)/2)];
+}
+
+#lbs .cont {
+  @apply w-full bg-[#eff2fb] pb-10;
+}
+#rm .cont {
+  @apply w-full bg-[#eff2fb] pb-10;
+}
+#rm .top span.ko{
+   @apply w-[230px] text-center
+}
+#rm .top span.en{
+   @apply w-[300px] text-center
 }

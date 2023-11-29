@@ -31,7 +31,9 @@ export default {
   },
   data() {
     return {
-      menuItems: [{ to: '/about/overview', ko: '기업소개', en: 'About Us' }],
+      menuItems: [
+        { to: '/about/overview', ko: '기업소개', en: 'About Us' },
+      ],
       menuItems1: [
         { to: '/about/overview', ko: '회사개요', en: 'About Us' },
         { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
