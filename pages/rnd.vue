@@ -1,5 +1,6 @@
 <template>
   <div id="container" class="sub">
+    <MobileCategoryRndCategory />
     <NuxtChild />
   </div>
 </template>

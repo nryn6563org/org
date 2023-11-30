@@ -1,5 +1,5 @@
 <template>
-  <CommonTop :top-items='topItems' />
+  <CommonTop :top-items="topItems" />
 </template>
 
 <script>
@@ -12,7 +12,8 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'R&D',
+        smk: '국가 R&D',
+        sme: 'National R&D',
         ko: '로그인 도용방지 시스템',
         en: 'Login Abuse Prevention System',
       },
