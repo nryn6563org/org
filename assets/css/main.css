@@ -128,7 +128,7 @@ em {
   @apply border-t-0;
 }
 .MainNewsList .list .top {
-  @apply block truncate w-full text-[16px] text-black font-light leading-6 tracking-[-0.176px];
+  @apply block truncate w-full text-[16px] text-black font-light leading-6 tracking-[-0.176px] p-0;
 }
 .MainNewsList .list .btm {
   @apply flex w-full h-5 items-center;
@@ -201,7 +201,7 @@ em {
   @apply leading-[48px] text-[32px] font-bold tracking-[-0.352px] text-neutral-900;
 }
 #aboutus .visual {
-  @apply w-full mt-[50px];
+  @apply w-full mt-[50px] p-0 block h-fit;
 }
 #aboutus .text {
   @apply w-full pt-[60px];
@@ -293,9 +293,13 @@ em {
 #rm .cont {
   @apply w-full bg-[#eff2fb] pb-10;
 }
-#rm .top span.ko{
-   @apply w-[230px] text-center
+#rm .top span.ko {
+  @apply w-[230px] text-center;
 }
-#rm .top span.en{
-   @apply w-[300px] text-center
+#rm .top span.en {
+  @apply w-[300px] text-center;
+}
+
+.dropdown > button span {
+  @apply leading-3 text-left block w-full;
 }

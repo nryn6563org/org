@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .top {
   @apply w-full py-[50px] flex flex-col items-center gap-2 px-5;
 }

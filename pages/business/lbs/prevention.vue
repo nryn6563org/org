@@ -8,13 +8,20 @@
       </p>
 
       <div class="s-cont">
-        <strong>안심키퍼서비스</strong>
-        <em>24시간 PC접속 감시</em>
+        <strong class="ko">안심키퍼서비스</strong>
+        <strong class="en">SafeKeeper Service</strong>
+        <em class="ko">24시간 PC접속 감시</em>
+        <em class="en">24-hour PC access monitoring </em>
 
-        <span>
+        <span class="ko">
           안심키퍼 서비스는 타인이 나의 PC로 접속을 시도할 경우 SMS 문자를 통해
           알람을 주고 이용자가 즉시 차단 또는 예약 종료를 할 수 있는 개인정보
           보호서비스입니다.
+        </span>
+        <span class="en">
+          The SafeKeeper service is a privacy protection service that alerts you
+          via SMS when someone tries to access your PC and allows you to block
+          or cancel the reservation immediately.
         </span>
       </div>
     </div>

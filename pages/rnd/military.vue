@@ -12,10 +12,10 @@ export default {
   data() {
     return {
       topItems: {
-        smk: '국가 R&D',
-        sme: 'National R&D',
-        ko: '로그인 도용방지 시스템',
-        en: 'Login Abuse Prevention System',
+        smk: '기업부설연구소',
+        sme: '',
+        ko: '병역특례',
+        en: 'Military Service Exemption',
       },
     }
   },

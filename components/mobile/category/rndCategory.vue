@@ -47,7 +47,7 @@ export default {
     return {
       menuItems1: [
         { to: '/rnd/national', ko: '국가R&D', en: 'National R&D' },
-        { to: '/rnd/military', ko: '병역혜택', en: 'Military Service Exemption' },
+        { to: '/rnd/military', ko: '병역혜택', en: 'Mil. Service Exemption' },
         // ... 다른 메뉴 아이템들
       ],
     }

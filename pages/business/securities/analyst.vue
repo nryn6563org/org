@@ -1,6 +1,6 @@
 <template>
   <div id="securities">
-    <CommonTop :top-items='topItems' />
+    <CommonTop :top-items="topItems" />
     <!-- // -->
     <div class="cont">
       <div class="top-[60px] left-[146px] w-[100px]">
@@ -40,9 +40,8 @@
           플랫폼
         </span>
         <span class="en">
-          Thinkpool <br />
-          AI-Robo advisor <br />
-          Platform
+          TP AI-Robo <br />
+          advisor Platform
         </span>
       </div>
     </div>
@@ -101,7 +100,6 @@ export default {
   },
 }
 </script>
-
 
 <style scoped>
 .cont {

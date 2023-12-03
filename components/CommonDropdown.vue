@@ -84,7 +84,7 @@ export default {
   @apply w-full relative;
 }
 .dropdown > button {
-  @apply h-8 leading-8 w-full flex justify-between items-center text-[12px] text-neutral-900 tracking-[-0.132px];
+  @apply h-8 leading-4 w-full flex justify-between items-center text-[12px] text-neutral-900 tracking-[-0.132px];
 }
 .droplist {
   @apply py-2.5 border-[#f0f0f0] border-[1px] absolute top-8 left-0 bg-white z-20 hidden flex-col items-start w-full gap-2 bg-opacity-80;

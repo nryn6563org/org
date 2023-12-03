@@ -1,6 +1,6 @@
 <template>
   <div id="securities">
-    <CommonTop :top-items='topItems' />
+    <CommonTop :top-items="topItems" />
     <!-- // -->
     <div class="cont">
       <div class="fst">
@@ -13,11 +13,7 @@
           투자 및 재무<br />
           조언 안내
         </span>
-        <span class="en">
-          Investment<br />
-          and financial <br />
-          advice guidance
-        </span>
+        <span class="en"> Inv. and financial advice guidance </span>
       </div>
       <div class="bottom-[-62px] left-[138px] h-[115px] gap-10 w-[86px]">
         <span>Step02</span>
@@ -25,11 +21,7 @@
           셀프 서비스<br />
           투자 및 재무 조언
         </span>
-        <span class="en">
-          Self-service <br />
-          investment and <br />
-          financial advice
-        </span>
+        <span class="en"> Self-service inv. and financial advice </span>
       </div>
       <div class="gap-[60px] right-[23px] bottom-[-62px] h-[135px] w-[100px]">
         <span>Step03</span>
@@ -37,11 +29,7 @@
           완전 자동화된<br />
           비재량 투자 조언
         </span>
-        <span class="en">
-          Fully automated <br />
-          non-discretionary <br />
-          investment advice
-        </span>
+        <span class="en"> Fully Automated Non-Discretionary Inv. Advice </span>
       </div>
     </div>
     <!-- // -->
@@ -50,18 +38,14 @@
       <span class="ko">
         개인 특성 분석 및 특성에 적합한 개인맞춤형 포트폴리오를 자동으로
         관리해주는 시스템(PMS)
-      </span>
-      <span class="en">
-        A system that analyzes your personal characteristics and automatically
-        manages a personalized portfolio tailored to your needs.(PMS)
-      </span>
-      <span class="pt-2 ko">
-        씽크풀의 로보어드바이저는 일반적인 로보어드바이저와 차별 (전종목 분석,
-        실시간 시장 대응)
-      </span>
-      <span class="pt-2 en">
-        ThinkPool's robot advisor is different from other robot advisors
-        (full-scale analysis, real-time market response)
+        <span class="pt-2 ko">
+          씽크풀의 로보어드바이저는 일반적인 로보어드바이저와 차별 (전종목 분석,
+          실시간 시장 대응)
+        </span>
+        <span class="en">
+          A system that analyzes your personal characteristics and automatically
+          manages a personalized portfolio tailored to your needs.(PMS)
+        </span>
       </span>
     </div>
     <!-- // -->
@@ -107,7 +91,6 @@ export default {
   },
 }
 </script>
-
 
 <style scoped>
 .cont {

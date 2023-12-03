@@ -31,9 +31,9 @@
           콘텐츠 플랫폼
         </span>
         <span class="en">
-          Thinkpool <br />
-          AI-Robo news <br />
-          contents Platform
+          TP AI-Robo news <br />
+          contents <br />
+          Platform
         </span>
       </div>
     </div>

@@ -10,11 +10,7 @@
             대출기관 <em>22</em>사,<br />
             상품 <em>75</em>개
           </span>
-          <span class="en">
-            <em>12</em> securities firms <br />
-            <em>22</em> lenders <br />
-            <em>75</em> products in total
-          </span>
+          <span class="en"> <em>75</em> products </span>
         </div>
         <!-- // -->
 
@@ -24,8 +20,8 @@
             <em>1,200</em>억원
           </span>
           <span class="en">
-            Loan balance <br />
-            <em>1,200</em> billion KRW
+            LB <br />
+            <em>1.2 T</em> KRW
           </span>
         </div>
         <!-- // -->
@@ -36,9 +32,7 @@
             개발 및 자판구조 <br />
             확대 중
           </span>
-          <span class="en">
-            Developing blue-chip products and expanding distribution structure
-          </span>
+          <span class="en"> Service expansion in progress </span>
         </div>
         <!-- // -->
 
@@ -111,7 +105,7 @@ export default {
 }
 
 .txt {
-  @apply w-full px-5 mt-[50px] text-[14px] text-[#444] leading-4;
+  @apply w-full mt-[50px] text-[14px] text-[#444] leading-4 px-5;
 }
 .txt span {
   @apply block pb-5;

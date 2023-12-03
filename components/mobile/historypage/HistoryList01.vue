@@ -42,11 +42,11 @@
           '과학기술정보통신부' '디지털 전환 가속화를 위한 로우코드 방식 개발용
           SW 기술' 주관기관 선정
         </span>
-        <class class="en">
+        <span class="en">
           Selected as the host organization for the Ministry of Science and
           ICT's 'SW Technology for Developing Low-Code Methods for Accelerating
           Digital Transformation'
-        </class>
+        </span>
       </div>
       <div class="month">
         <em>03</em>

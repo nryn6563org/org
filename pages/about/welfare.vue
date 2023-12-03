@@ -304,11 +304,7 @@ n
             </svg>
           </span>
           <span class="ko">경조사비 지원 <br />(결혼,회갑,칠순, 장례) </span>
-          <span class="en">
-            Financial assistance <br />
-            (Marriage, fiftieth birthday, <br />
-            seventieth birthday, funeral)
-          </span>
+          <span class="en"> Financial assistance </span>
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -395,9 +391,7 @@ n
           </span>
           <span class="en">
             Support for employee <br />
-            anniversaries <br />
-            (birthdays, wedding <br />
-            anniversaries, etc.)
+            anniversaries
           </span>
           <span>
             <svg

@@ -111,7 +111,7 @@ n<template>
   @apply w-full flex justify-between gap-2.5 flex-wrap;
 }
 .award_list > div {
-  @apply w-[calc((100%-10px)/2)] flex flex-col py-5 justify-center items-center bg-[#fafafc] rounded-[12px];
+  @apply w-[calc((100%-10px)/2)] flex flex-col py-5 justify-start items-center bg-[#fafafc] rounded-[12px];
 }
 .award_list > div strong {
   @apply text-[16px] text-[#141414] leading-[18px] font-bold  pb-[28px];
