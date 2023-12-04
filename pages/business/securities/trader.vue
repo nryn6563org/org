@@ -46,6 +46,9 @@ export default {
 </script>
 
 <style scoped>
+.top {
+  @apply pb-0;
+}
 #securities .cont {
   @apply pt-0 mt-[35px] px-[38px];
 }

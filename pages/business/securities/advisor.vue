@@ -93,6 +93,9 @@ export default {
 </script>
 
 <style scoped>
+.top{
+  @apply pb-0
+}
 .cont {
   @apply mt-10 bg-[url('~/assets/image/securities/advisor.png')] bg-cover w-full h-[306px] mx-auto relative;
 }
