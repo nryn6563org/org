@@ -56,13 +56,13 @@ em {
 }
 
 .MainPage__splide .swiper-slide {
-  @apply w-[256px] h-[246px] bg-gray-100 rounded-[12px] overflow-hidden;
+  @apply w-[293px] h-[246px] bg-gray-100 rounded-[12px] overflow-hidden;
 }
 .MainPage__splide .swiper-slide.non-bg {
   @apply bg-white;
 }
 .MainPage__splide .swiper-slide > div {
-  @apply w-[206px] h-[196px]  flex flex-col justify-between mx-[25px] my-[25px];
+  @apply w-[243x] h-[196px]  flex flex-col justify-between mx-[25px] my-[25px];
 }
 .MainPage__splide .swiper-slide div .txt {
   @apply block w-full;
@@ -87,7 +87,7 @@ em {
   @apply bg-white;
 }
 .MainPage__splide .swiper-slide.rm {
-  @apply w-[273px] h-[226px] bg-white;
+  @apply w-[293px] h-[226px] bg-white;
 }
 .MainPage__splide .swiper-slide.rm > div {
   @apply w-full h-[226px] flex flex-col justify-between m-0 gap-0;
