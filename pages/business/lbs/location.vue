@@ -7,7 +7,7 @@
         <img src="~/assets/image/lbs/prevention.png" alt="" />
       </p>
       <!-- // -->
-      <div class="guide">
+      <div class="guide mt-[-4px]">
         <span class="ko">
           언제든지 발생할 수 있는 부정로그인 및 해킹을 <br />
           방지하는 위치기반 보안서비스 <br /><br />
