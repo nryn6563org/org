@@ -55,17 +55,6 @@ n
             recognition and incentive <br />
             programs
           </span>
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M10 7L15 12L10 17" stroke="#141414" />
-            </svg>
-          </span>
         </button>
         <!-- // -->
 
@@ -105,17 +94,6 @@ n
           <span class="en">
             Support for biennial <br />
             wellness visits
-          </span>
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M10 7L15 12L10 17" stroke="#141414" />
-            </svg>
           </span>
         </button>
         <!-- // -->
@@ -158,17 +136,6 @@ n
           <span class="en">
             Longevity Awards <br />
             (10, 15, 20 years)
-          </span>
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M10 7L15 12L10 17" stroke="#141414" />
-            </svg>
           </span>
         </button>
         <!-- // -->
@@ -243,17 +210,6 @@ n
             Suggestion System <br />
             and Invention Awards
           </span>
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M10 7L15 12L10 17" stroke="#141414" />
-            </svg>
-          </span>
         </button>
         <!-- // -->
 
@@ -305,17 +261,6 @@ n
           </span>
           <span class="ko">경조사비 지원 <br />(결혼,회갑,칠순, 장례) </span>
           <span class="en"> Financial assistance </span>
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M10 7L15 12L10 17" stroke="#141414" />
-            </svg>
-          </span>
         </button>
         <!-- // -->
 
@@ -392,17 +337,6 @@ n
           <span class="en">
             Support for employee <br />
             anniversaries
-          </span>
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M10 7L15 12L10 17" stroke="#141414" />
-            </svg>
           </span>
         </button>
         <!-- // -->
