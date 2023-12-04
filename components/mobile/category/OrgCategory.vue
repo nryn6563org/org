@@ -46,7 +46,7 @@ export default {
   data() {
     return {
       menuItems1: [
-        { to: '/about/overview', ko: '회사개요', en: 'About Us' },
+        { to: '/about/overview', ko: '회사개요', en: 'Corporate Overview' },
         { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
         { to: '/about/vision', ko: '비전', en: 'VISION' },
         { to: '/about/orghistory', ko: '연혁', en: 'History' },
