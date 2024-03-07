@@ -128,7 +128,7 @@ em {
   @apply border-t-0;
 }
 .MainNewsList .list .top {
-  @apply block truncate w-full text-[16px] text-black font-light leading-6 tracking-[-0.176px] p-0;
+  @apply block truncate w-full text-[16px] text-black font-light leading-6 tracking-[-0.176px] p-0 text-left;
 }
 .MainNewsList .list .btm {
   @apply flex w-full h-5 items-center;
