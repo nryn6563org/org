@@ -92,9 +92,9 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'LBS Part',
-        ko: '로그인 도용방지 시스템',
-        en: 'Login Abuse Prevention System',
+        sm: 'LBS',
+        ko: '로그인보호서비스',
+        en: 'Login Protection Services',
       },
     }
   },

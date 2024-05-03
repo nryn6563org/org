@@ -8,7 +8,7 @@
 
     <div class="mainTopTitle use-bg en">
       <em>Nation R&D</em>
-      <strong>Conducting R&D and <br />government projects</strong>
+      <strong>Conducting R&D and Government <br>projects</strong>
     </div>
 
     <div class="mainTopCardSlider">

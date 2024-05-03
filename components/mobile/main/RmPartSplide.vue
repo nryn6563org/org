@@ -8,16 +8,17 @@
       <div class="swiper-slide">
         <div>
           <div class="txt ko">
-            <strong>RMS <br />(자동대출) 통제시스템</strong>
+            <strong>RMS통제시스템</strong>
             <span>
               초개인화, 초지능화에 기반한 <br />스마트한 자산운용이 시작됩니다.
             </span>
           </div>
           <div class="txt en">
-            <strong>RMS <br />Automated Loan Control System</strong>
+            <strong>RMS Control System</strong>
             <span>
-              Smart wealth management based on <br>
-              hyper-personalization and hyper-intelligence begins.
+              Smart wealth management based <br>
+              on hyper-personalization and <br>
+              hyper-intelligence begins
             </span>
           </div>
 
@@ -38,10 +39,11 @@
           </div>
 
           <div class="txt en">
-              <strong>Small Business Lending Risk <br>Management Solutions </strong>
+              <strong>Small Business Lending <br>Risk Management Solutions</strong>
               <span>
                 Proactively predict and manage <br>
-                various risks based on big data and AI. 
+                various risks based on big data <br>
+                and AI
               </span>
             </div>
           <div
@@ -61,7 +63,7 @@ export default {
   mounted() {
     const script = document.createElement('script')
     script.src =
-      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+      'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
     script.async = true
     document.body.appendChild(script)
 

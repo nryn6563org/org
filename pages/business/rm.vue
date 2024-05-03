@@ -1,5 +1,8 @@
 <template>
-  <NuxtChild />
+  <div id="container" class="sub">
+    <MobileCategoryRiskCategory />
+    <NuxtChild />
+  </div>
 </template>
 
 <script>

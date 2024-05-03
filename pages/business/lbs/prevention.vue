@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'LBS Part',
+        sm: 'LBS',
         ko: '안심키퍼 서비스',
         en: 'SafeKeeper Service',
       },

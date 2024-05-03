@@ -1,8 +1,9 @@
 <template>
     <section>
         <div class="mainTopTitle">
-            <em>RM Part</em>
-            <strong class="ko">RM사업</strong>
+            <em class="ko">리스크관리솔루션</em>
+            <em class="en">Risk Management Solution</em>
+            <strong class="ko">리스크관리솔루션</strong>
             <strong class="en">RM Business</strong>
         </div>
         <!-- mainTopTitle -->

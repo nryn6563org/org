@@ -18,6 +18,9 @@
             </span>
           </div>
           <!-- //cont -->
+          <div class="more">
+            <a href="#">View More</a>
+          </div>
         </button>
       </div>
       <!-- // -->
@@ -37,6 +40,9 @@
             </span>
           </div>
           <!-- //cont -->
+          <div class="more">
+            <a href="#">View More</a>
+          </div>
         </button>
       </div>
       <!-- // -->
@@ -56,6 +62,9 @@
             </span>
           </div>
           <!-- //cont -->
+          <div class="more">
+            <a href="#">View More</a>
+          </div>
         </button>
       </div>
       <!-- // -->
@@ -112,6 +121,12 @@ export default {
 }
 .board .list .date {
   @apply text-left text-[12px] text-[#9395a1] tracking-[-0.132px];
+}
+.board .list .more{
+  @apply block w-full h-4 leading-4 mt-0 text-start
+}
+.board .list .more a{
+  @apply text-[12px] text-[#444] tracking-[-0.132px] underline
 }
 
 .board .more {

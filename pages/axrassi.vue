@@ -1,10 +1,13 @@
 <template>
-  <NuxtChild />
+  <div id="container" class="sub">
+    <MobileCategoryAxCategory />
+    <NuxtChild />
+  </div>
 </template>
 
 <script>
 export default {
-  layout: 'custom',
+  layout: 'custom'
 }
 </script>
 

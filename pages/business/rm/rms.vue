@@ -81,9 +81,9 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'RM Part',
-        ko: 'RMS(자동대출) 통제 시스템',
-        en: 'RMS (Automated Lending) Control System',
+        sm: 'RMS',
+        ko: 'RMS통제시스템',
+        en: 'RMS System',
       },
     }
   },

@@ -20,7 +20,7 @@
               <span>
                 Detect fraudulent logins and <br>
                 prevent hacking by comparing PC <br>
-                and phone locations. 
+                and phone locations.
               </span>
             </div>
 
@@ -44,7 +44,7 @@
               <strong>SafeKeeper Service </strong>
               <span>
                 Block unauthorized access to your PC and <br>
-                control your child's excessive PC use. 
+                control your child's excessive PC use.
               </span>
             </div>
             <div
@@ -64,7 +64,7 @@ export default {
   mounted() {
     const script = document.createElement('script')
     script.src =
-      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+      'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
     script.async = true
     document.body.appendChild(script)
 

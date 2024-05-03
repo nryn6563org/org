@@ -51,11 +51,16 @@ export default {
         { to: '/about/vision', ko: '비전', en: 'VISION' },
         { to: '/about/orghistory', ko: '연혁', en: 'History' },
         { to: '/about/patent', ko: '특허', en: 'Patent' },
-        { to: '/about/award', ko: '주요수상', en: 'Major Award' },
+        { to: '/about/award', ko: '수상', en: 'Major Award' },
         {
           to: '/about/certification',
-          ko: '주요인증',
+          ko: '인증',
           en: 'Major Certification',
+        },
+        {
+          to: '/about/value',
+          ko: '인재상',
+          en: 'Our Values',
         },
         { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
         { to: '/about/contact', ko: '오시는길', en: 'Contact' },

@@ -1,15 +1,18 @@
 <template>
   <section>
     <div class="mainTopTitle">
-      <em>LBS Part</em>
-      <strong>LBS</strong>
-      <span class="ko">(위치기반서비스)</span>
-      <span class="en">(Location-based services)</span>
+      <em class="ko">위치기반서비스</em>
+      <em class="en">Location-based services</em>
+      <strong class="ko">위치기반서비스</strong>
+      <strong class="en">Location-based services</strong>
+      <span class="ko">위치기반서비스</span>
+      <span class="en">Location-based services</span>
     </div>
     <!-- mainTopTitle -->
 
     <div class="mainTopTitleGuide">
-      <span class="ko"> 
+
+      <span class="ko">
         위치기반서비스를 통해 고객의 정보를<br>
         보호하고 편의성을 추구합니다.
       </span>

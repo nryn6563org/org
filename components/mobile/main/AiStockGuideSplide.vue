@@ -8,19 +8,18 @@
       <div class="swiper-slide">
         <div>
           <div class="txt ko">
-            <strong>R1. AI 기자</strong>
+            <strong>AXR1. PMS</strong>
             <span>
-              AI기자가 누구보다 빠르고 정확하게 <br />
-              뉴스를 전달합니다.
+              투자자가 종목 또는 포트폴리오를 <br>
+              선택할 수 있도록 지원하는 시스템
             </span>
           </div>
 
           <div class="txt en">
-            <strong>R1. AI Reporter</strong>
+            <strong>AXR1. PMS</strong>
             <span>
-              AI reporters deliver news <br />
-              faster and more accurately <br />
-              than anyone else.
+              Systems that allow investors to <br>
+              select stocks or portfolios
             </span>
           </div>
           <div
@@ -32,43 +31,19 @@
       <div class="swiper-slide">
         <div>
           <div class="txt ko">
-            <strong>R2. AI 애널리스트</strong>
+            <strong>AXR2. SMS</strong>
             <span>
-              초지능화로 집단지성을 뛰어넘는 <br />
-              투자정보를 생성합니다.
+              국내 전 종목 및 ETF를 대상으로 <br>
+              최적의 매매타이밍을 잡아주는 종 <br>
+              목별 AI시그널 생성, 운영 시스템
             </span>
           </div>
           <div class="txt en">
-            <strong>R2. AI Analyst</strong>
+            <strong>AXR2. SMS</strong>
             <span>
-              Superintelligence generates <br />
-              investment information that <br />
-              goes beyond collective <br />
-              intelligence.
-            </span>
-          </div>
-          <div
-            class="vi bg-[url('~/assets/image/main/aistock/vi02.png')] bg-no-repeat bg-[length:90px_81px] ;"
-          ></div>
-        </div>
-      </div>
-      <!-- // -->
-      <div class="swiper-slide">
-        <div>
-          <div class="txt ko">
-            <strong>R3. AI 어드바이저</strong>
-            <span>
-              초개인화로 맞춤 투자정보를 <br />
-              적시에 제공합니다.
-            </span>
-          </div>
-
-          <div class="txt en">
-            <strong>R3. AI Adviser</strong>
-            <span>
-              Hyper-personalization <br />
-              delivers timely, personalized <br />
-              investment information.
+              AI signals system for optimal trade <br>
+              timing for all domestic stocks and <br>
+              ETFs by sector
             </span>
           </div>
           <div
@@ -80,18 +55,21 @@
       <div class="swiper-slide">
         <div>
           <div class="txt ko">
-            <strong>R4. AI 트레이더</strong>
+            <strong>AXR3. TMS</strong>
             <span>
-              초지능화로 시장반응형 <br />
-              매매기술을 제공합니다.
+              종목별 호가, 체결상태 등 주식시장 <br>
+              의 힘을 AI가 학습하여 싸게 사고 비 <br>
+              싸게 팔 수 있도록 지원하는 시스템
             </span>
           </div>
 
           <div class="txt en">
-            <strong>R4. AI Trader</strong>
+            <strong>AXR3. TMS</strong>
             <span>
-              AI trader buys low and <br />
-              sells high on stocks
+              A system that enables AI to learn <br>
+              stock market forces, such as <br>
+              quotes and execution status, to <br>
+              buy low and sell high.
             </span>
           </div>
 
@@ -111,7 +89,7 @@ export default {
   mounted() {
     const script = document.createElement('script')
     script.src =
-      'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
+      'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
     script.async = true
     document.body.appendChild(script)
 
@@ -122,11 +100,11 @@ export default {
         centeredSlides: true,
         pagination: {
           el: '.swiper-pagination',
-          clickable: true,
-        },
+          clickable: true
+        }
       }).mount()
       //
     }
-  },
+  }
 }
 </script>

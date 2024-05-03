@@ -9,7 +9,7 @@
     <div class="globalNavigation">
       <div class="mn">
         <button class="depth1">
-          <span class="ko">기업소개</span>
+          <span class="ko">회사소개</span>
           <span class="en">About Us</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,14 +41,16 @@
           <NuxtLink to="/about/orghistory" class="en">History</NuxtLink>
           <NuxtLink to="/about/patent" class="ko">특허</NuxtLink>
           <NuxtLink to="/about/patent" class="en">Patent</NuxtLink>
-          <NuxtLink to="/about/award" class="ko">주요 수상</NuxtLink>
-          <NuxtLink to="/about/award" class="en">Major Award</NuxtLink>
-          <NuxtLink to="/about/certification" class="ko">주요 인증</NuxtLink>
+          <NuxtLink to="/about/award" class="ko">수상</NuxtLink>
+          <NuxtLink to="/about/award" class="en">Award</NuxtLink>
+          <NuxtLink to="/about/certification" class="ko">인증</NuxtLink>
           <NuxtLink to="/about/certification" class="en"
-            >Major Certification</NuxtLink
+            >Certification</NuxtLink
           >
           <NuxtLink to="/about/welfare" class="ko">복지제도</NuxtLink>
           <NuxtLink to="/about/welfare" class="en">Welfare System</NuxtLink>
+          <NuxtLink to="/about/value" class="ko">인재상</NuxtLink>
+          <NuxtLink to="/about/value" class="en">Our Values</NuxtLink>
           <NuxtLink to="/about/contact" class="ko">오시는 길</NuxtLink>
           <NuxtLink to="/about/contact" class="en">Contact</NuxtLink>
         </div>
@@ -58,8 +60,8 @@
 
       <div class="mn">
         <button class="depth1">
-          <span class="ko">사업영역</span>
-          <span class="en">Business</span>
+          <span class="ko">ThinkPool AI</span>
+          <span class="en">ThinkPool AI</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -78,64 +80,8 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <span class="en">AI Securities Company</span>
-          <div class="depth2Part">
-            <strong class="ko">AI증권사 Part</strong>
-            <strong class="en">PART</strong>
-            <NuxtLink to="/business/securities/reporter" class="ko"
-              >R1. AI-기자</NuxtLink
-            >
-            <NuxtLink to="/business/securities/reporter" class="en"
-              >R1. AI-Reporter</NuxtLink
-            >
-            <NuxtLink to="/business/securities/analyst" class="ko"
-              >R2. AI-애널리스트</NuxtLink
-            >
-            <NuxtLink to="/business/securities/analyst" class="en"
-              >R2. AI-Analysts</NuxtLink
-            >
-            <NuxtLink to="/business/securities/advisor" class="ko"
-              >R3. AI-PMS(Advisor) 시스템</NuxtLink
-            >
-            <NuxtLink to="/business/securities/advisor" class="en"
-              >R3. AI-PMS System</NuxtLink
-            >
-            <NuxtLink to="/business/securities/trader">R4. AI-Trader</NuxtLink>
-          </div>
-
-          <!-- //depth2Part -->
-
-          <div class="depth2Part">
-            <strong class="ko">LBS Part</strong>
-            <strong class="en">LBS PART</strong>
-            <NuxtLink to="/business/lbs/location" class="ko"
-              >위치기반 로그인 도용방지 시스템</NuxtLink
-            >
-            <NuxtLink to="/business/lbs/location" class="en"
-              >Location-based login theft</NuxtLink
-            >
-            <NuxtLink to="/business/lbs/prevention" class="ko"
-              >안심키퍼서비스</NuxtLink
-            >
-            <NuxtLink to="/business/lbs/prevention" class="en"
-              >prevention system</NuxtLink
-            >
-            <NuxtLink to="/business/lbs/noshowno" class="ko">노쇼노</NuxtLink>
-            <NuxtLink to="/business/lbs/noshowno" class="en"
-              >NO show no</NuxtLink
-            >
-          </div>
-          <!-- //depth2Part -->
-
-          <div class="depth2Part">
-            <strong class="ko">RM Part</strong>
-            <strong class="en">RM PART</strong>
-            <NuxtLink to="/business/rm/rms" class="ko"
-              >RMS(자동대출)통제시스템</NuxtLink
-            >
-            <NuxtLink to="/business/rm/rms" class="en">RMS System</NuxtLink>
-          </div>
-          <!-- //depth2Part -->
+          <NuxtLink to="/axrassi/rassi" class="">AX RASSI </NuxtLink>
+          <NuxtLink to="/axrassi/algorithms" class="">ThinkPool AI Algorithm</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -143,8 +89,68 @@
 
       <div class="mn">
         <button class="depth1">
-          <span class="ko">혁신R&D</span>
-          <span class="en">Corporate Research Center</span>
+          <span class="ko">위치기반서비스</span>
+          <span class="en">LBS</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M19 8L12.7071 14.2929C12.3166 14.6834 11.6834 14.6834 11.2929 14.2929L5 8"
+              stroke="#D0D0D0"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <!-- depth1 -->
+        <div class="depth2">
+          <NuxtLink to="/business/lbs/location" class="ko">로그인보호서비스</NuxtLink>
+          <NuxtLink to="/business/lbs/location" class="en">Login Identity Protection Services</NuxtLink>
+          <NuxtLink to="/business/lbs/prevention" class="ko">안심키퍼서비스</NuxtLink>
+          <NuxtLink to="/business/lbs/prevention" class="en">SafeKeeper Service</NuxtLink>
+        </div>
+        <!-- depth2 -->
+      </div>
+      <!-- mn -->
+
+      <div class="mn">
+        <button class="depth1">
+          <span class="ko">리스크관리솔루션</span>
+          <span class="en">RMS</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M19 8L12.7071 14.2929C12.3166 14.6834 11.6834 14.6834 11.2929 14.2929L5 8"
+              stroke="#D0D0D0"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <!-- depth1 -->
+        <div class="depth2">
+          <NuxtLink to="/business/rm/rms" class="ko">RMS통제시스템</NuxtLink>
+          <NuxtLink to="/business/rm/rms" class="en">RMS Control System</NuxtLink>
+        </div>
+        <!-- depth2 -->
+      </div>
+      <!-- mn -->
+
+      <div class="mn">
+        <button class="depth1">
+          <span class="ko">기업부설연구소</span>
+          <span class="en">R&D Center</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

@@ -20,7 +20,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css',
+        href: 'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css',
       },
       {
         rel: 'preconnect',
@@ -38,7 +38,7 @@ export default {
     ],
     script: [
       {
-        src: 'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js',
+        src: 'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js',
         defer: true,
       },
       // 추가적인 스크립트를 필요에 따라 설정

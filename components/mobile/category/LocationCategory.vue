@@ -17,8 +17,8 @@
     <!-- //home -->
     <div id="depth1" class="dropdown">
       <button>
-          <span class="ko">혁신R&D</span>
-          <span class="en">Company-affiliated research center</span>
+        <span class="ko">위치기반서비스</span>
+        <span class="en">LBS</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -46,9 +46,8 @@ export default {
   data() {
     return {
       menuItems1: [
-        { to: '/rnd/national', ko: '국가R&D', en: 'National R&D' },
-        { to: '/rnd/military', ko: '병역특례', en: 'Mil. Service Exemption' },
-        // ... 다른 메뉴 아이템들
+        { to: '/business/lbs/location', ko: '로그인보호서비스', en: 'Login Protection' },
+        { to: '/business/lbs/prevention', ko: '안심키퍼서비스', en: 'Safe Keeper' }
       ],
     }
   },
@@ -73,18 +72,22 @@ export default {
 
 <style scoped>
 #category {
-  @apply sticky top-[50px] left-0 border-t-[1px] border-[#f0f0f0] border-b-[1px] flex items-center bg-white z-[25];
+  @apply sticky top-[50px] left-0 border-t-[1px] border-[#f0f0f0] border-b-[1px] flex items-center bg-white z-20;
 }
+
 #category .home {
   @apply h-8 w-9 flex justify-center items-center;
 }
+
 #category div {
   @apply w-[calc((100%-36px)/2)] h-8 px-2.5 border-l-[1px] border-[#f0f0f0];
 }
+
 .dropdown {
   @apply w-full relative;
 }
+
 .dropdown > button {
-  @apply h-8 leading-[18px] w-full flex justify-between items-center text-[12px] text-neutral-900 tracking-[-0.132px];
+  @apply h-8 leading-8 w-full flex justify-between items-center text-[12px] text-neutral-900 tracking-[-0.132px];
 }
 </style>

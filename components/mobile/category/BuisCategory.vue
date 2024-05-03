@@ -37,45 +37,38 @@ export default {
     return {
       menuItems: [
         {
-          id: 'securities',
-          to: '/business/securities/reporter',
-          ko: 'AI 증권사',
-          en: 'AI Securities',
+          id: 'axrassi',
+          to: '/axrassi/rassi',
+          ko: 'ThinkPool AI',
+          en: 'ThinkPool AI',
         },
-        { id: 'lbs', to: '/business/lbs/location', ko: 'LBS', en: 'LBS' },
-        { id: 'rm', to: '/business/rm/rms', ko: 'RM', en: 'RM' },
+        { id: 'lbs', to: '/business/lbs/location', ko: '위치기반서비스', en: 'LBS' },
+        { id: 'rms', to: '/business/rm/rms', ko: '리스크관리솔루션', en: 'RMS' },
       ],
       menuItems1: [
         {
-          to: '/business/securities/reporter',
-          ko: 'AI 기자',
-          en: 'AI Reporter',
+          to: '/axrassi/rassi',
+          ko: 'AX RASSi',
+          en: 'AX RASSi',
         },
         {
-          to: '/business/securities/analyst',
-          ko: 'AI 애널리스트',
-          en: 'AI Analyst',
-        },
-        {
-          to: '/business/securities/advisor',
-          ko: 'AI 어드바이저',
-          en: 'AI Advisor',
-        },
-        { to: '/business/securities/trader', ko: 'AI Trader', en: 'AI Trader' },
+          to: '/axrassi/algorithms',
+          ko: 'AI Algorithms',
+          en: 'AI Algorithms',
+        }
       ],
       menuItems2: [
         {
           to: '/business/lbs/location',
-          ko: '로그인 도용방지',
-          en: 'Login theft',
+          ko: '로그인보호서비스',
+          en: 'Login Protection Services',
         },
-        { to: '/business/lbs/prevention', ko: '안심키퍼', en: 'Prevention' },
-        { to: '/business/lbs/noshowno', ko: '노쇼노', en: 'No show no' },
+        { to: '/business/lbs/prevention', ko: '안심키퍼서비스', en: 'Prevention' }
       ],
       menuItems3: [
         {
           to: '/business/rm/rms',
-          ko: 'RMS 시스템',
+          ko: 'RMS통제시스템',
           en: 'RMS System',
         },
       ],
@@ -111,11 +104,11 @@ export default {
         route.path.includes(item.id)
       )
 
-      if (selectedMenuItem.id === 'securities') {
+      if (selectedMenuItem.id === 'axrassi') {
         this.currentSubMenuItems = this.menuItems1
       } else if (selectedMenuItem.id === 'lbs') {
         this.currentSubMenuItems = this.menuItems2
-      } else if (selectedMenuItem.id === 'rm') {
+      } else if (selectedMenuItem.id === 'rms') {
         this.currentSubMenuItems = this.menuItems3
       } else {
         // 다른 경우에 대한 처리 또는 필요 시 기본 하위 메뉴 설정
