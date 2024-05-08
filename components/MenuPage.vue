@@ -1,8 +1,8 @@
 <template>
   <div id="container">
     <div class="ch-lang">
-      <button :class="{ active: isKorActive }" @click="toggleKor">KOR</button>
-      <button :class="{ active: isEngActive }" @click="toggleEng">ENG</button>
+      <button :class="{ active: isKorActive }" @click="toggleKor">KR</button>
+      <button :class="{ active: isEngActive }" @click="toggleEng">EN</button>
     </div>
     <!-- // languege choice -->
 

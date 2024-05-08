@@ -148,14 +148,14 @@ em {
 
 /*  ======================== Menu ========================  */
 .ch-lang {
-  @apply fixed top-[50px] w-full max-w-xl mx-auto py-[13px] flex items-center justify-end px-5 gap-1 bg-white z-20 border-b-[1px] border-[#F0F0F0];
+  @apply fixed top-[50px] w-full max-w-xl mx-auto py-[13px] flex items-center justify-end px-5 gap-2 bg-white z-20 border-b-[1px] border-[#F0F0F0];
 }
 
 .ch-lang button {
-  @apply border-[1px] border-zinc-300 text-zinc-300 rounded-[4px] opacity-80 text-[10px] font-Inter w-6 tracking-[-0.11px];
+  @apply border-[1px] border-zinc-300 text-zinc-300 opacity-80 text-[11px] font-Inter w-7 tracking-[-0.11px];
 }
 .ch-lang button.active {
-  @apply border-indigo-500 text-indigo-500;
+  @apply border-indigo-500 text-indigo-500 font-bold;
 }
 .globalNavigation {
   @apply w-full;
@@ -262,7 +262,7 @@ em {
   @apply flex gap-6 w-full items-start relative;
 }
 .history_line .years .month em {
-  @apply text-[16px] h-5 leading-5 text-[#141414] block 
+  @apply text-[16px] h-5 leading-5 text-[#141414] block
   before:content-[''] before:z-20 before:absolute before:top-1 before:left-[-27px] before:w-[9px] before:rounded-full before:bg-white before:h-[9px] before:bg-[url('~/assets/image/bullet.svg')] bg-cover;
 }
 .history_line .years .month span {
