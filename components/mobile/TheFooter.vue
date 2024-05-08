@@ -26,6 +26,7 @@
     </address>
 
     <MobileFooterFamilySiteSelect />
+    <MobileFooterShareList />
   </footer>
 </template>
 
