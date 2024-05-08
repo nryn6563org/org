@@ -1,9 +1,9 @@
 n<template>
   <div id="aboutus">
     <div class="title">
-      <span>Major Award</span>
+      <span>Award</span>
       <strong class="ko">주요수상</strong>
-      <strong class="en">Major Award</strong>
+      <strong class="en">Award</strong>
     </div>
     <!-- //title -->
 

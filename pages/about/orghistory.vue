@@ -1,9 +1,9 @@
 <template>
   <div id="aboutus">
     <div class="title">
-      <span>History</span>
+      <span>Milestones</span>
       <strong class="ko">연혁</strong>
-      <strong class="en">History</strong>
+      <strong class="en">Milestones</strong>
     </div>
     <!-- //title -->
 
@@ -38,6 +38,7 @@
 export default {
   mounted() {
     const paginationList = ['현재~2019', '2018~2016', '2015~창립']
+    const paginationListE = ['Now~2019', '2018~2016', '2015~Establish']
     const script = document.createElement('script')
     script.src =
       'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'
@@ -57,9 +58,9 @@ export default {
             return (
               '<div class="' +
               className +
-              '"><span>' +
+              '"><span class="ko">' +
               paginationList[i] +
-              '</span></div>'
+              '</span><span class="en">' + paginationListE[i] + '</span></div>'
             )
           },
         },

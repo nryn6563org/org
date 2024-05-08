@@ -33,11 +33,11 @@
         <div class="awardList">
           <div>
             <a href="https://www.msit.go.kr/index.do" target="_blank">
-              <img src="~/assets/image/lbs/award1.png" alt="미래창조과학부" />
+              <img src="~/assets/image/lbs/award3.png" alt="과학기술정보통신부" />
             </a>
-            <span class="ko">미래창조과학부장관상 수상</span>
+            <span class="ko">과기정통부장관상 수상</span>
             <span class="en">
-              Minister of Science, ICT and Future Planning Award
+              Minister of Science and Technology Award
             </span>
           </div>
           <!-- // -->
@@ -69,12 +69,9 @@
           /빗썸 / SBS / 60여 업체 제휴
         </span>
         <span class="en">
-          KT / LG U+ / SKT / KB Kookmin Card / KOSCOM / KORAIL / NET MABLE /
-          HI-PLUS CARD / CULTURELAND / NEXON / BUSAN BANK / MBN / SK COMS / iMBC
-          / INTERPARK / OK CASHBACK / Finance Institute / Tax Journal / cyworld
-          / Pusan univ / Nate / Korean Electronic Certificate / VARNSOFT / KTNET
-          / DANAL / NICEINFO / ISCS / OPEN CYBER UNIV / ASIA ECONOMY / KYOBO
-          BOOK / Bithumb / SBS / Partnered with 60+ companies
+          KT / LG U+ / SKT / KB Kookmin Card / KOSCOM / KORAIL / NET MABLE / HI-PLUS CARD / CULTURELAND / NEXON / BUSAN BANK / MBN / SK COMS
+/ iMBC / INTERPARK / OK CASHBACK / Finance Institute / Tax Journal / cyworld / Pusan univ / Nate / Korean Electronic Certificate / VARNSOFT  / KTNET
+/ DANAL / NICEINFO / ISCS / OPEN CYBER UNIV / ASIA ECONOMY / KYOBO BOOK  / SBS / Partnered with 60+ companies
         </span>
       </div>
       <!-- // -->

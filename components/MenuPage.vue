@@ -38,7 +38,7 @@
           <NuxtLink to="/about/vision" class="ko">비전</NuxtLink>
           <NuxtLink to="/about/vision" class="en">VISION</NuxtLink>
           <NuxtLink to="/about/orghistory" class="ko">연혁</NuxtLink>
-          <NuxtLink to="/about/orghistory" class="en">History</NuxtLink>
+          <NuxtLink to="/about/orghistory" class="en">Milestones</NuxtLink>
           <NuxtLink to="/about/patent" class="ko">특허</NuxtLink>
           <NuxtLink to="/about/patent" class="en">Patent</NuxtLink>
           <NuxtLink to="/about/award" class="ko">수상</NuxtLink>
@@ -110,7 +110,7 @@
         <!-- depth1 -->
         <div class="depth2">
           <NuxtLink to="/business/lbs/location" class="ko">로그인보호서비스</NuxtLink>
-          <NuxtLink to="/business/lbs/location" class="en">Login Identity Protection Services</NuxtLink>
+          <NuxtLink to="/business/lbs/location" class="en">Login Protection Services</NuxtLink>
           <NuxtLink to="/business/lbs/prevention" class="ko">안심키퍼서비스</NuxtLink>
           <NuxtLink to="/business/lbs/prevention" class="en">SafeKeeper Service</NuxtLink>
         </div>

@@ -148,6 +148,10 @@
         </dd>
         <!-- // -->
       </dl>
+
+      <div class="date">
+        Date of reference: 2024.02
+      </div>
     </div>
     <!-- //content -->
   </div>
@@ -173,5 +177,8 @@
 }
 .content dl dd span {
   @apply text-[12px] font-Inter text-black leading-[18px];
+}
+.content .date{
+  @apply absolute bottom-9 right-5 text-[12px] text-[#666]
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div id="aboutus">
     <div class="title">
-      <span>Major Certification</span>
-      <strong class="ko">주요인증</strong>
-      <strong class="en">Major Certification</strong>
+      <span>Certification</span>
+      <strong class="ko">인증</strong>
+      <strong class="en">Certification</strong>
     </div>
     <!-- //title -->
 
