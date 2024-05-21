@@ -362,7 +362,7 @@ n
 .welfare_list > button span {
   @apply text-[14px] text-[#141414] tracking-[-0.154px] text-left;
 }
-.welfare_list > button span:last-child {
+/* .welfare_list > button span:last-child {
   @apply absolute top-1/2 mt-[-12px] right-[15px];
-}
+} */
 </style>
