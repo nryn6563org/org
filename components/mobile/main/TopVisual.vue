@@ -52,7 +52,9 @@
     </div>
     <!-- scroll image -->
     <div class="topVisualBackground">
-      <img src="~/assets/image/mainVisual.png" alt="상단이미지" width="100%" />
+      <video autoplay muted loop>
+        <source src="https://img.thinkpool.com/infothinkpool/video/landingMainBg.mp4" type="video/mp4">
+      </video>
     </div>
     <!-- visual image -->
   </section>
@@ -63,7 +65,10 @@ section {
   @apply w-full h-fit overflow-hidden relative flex justify-center items-center float-left;
 }
 .topVisualBackground {
-  @apply w-full block;
+  @apply w-full h-[690px] block;
+}
+.topVisualBackground video{
+  @apply h-full w-full object-cover
 }
 .txt {
   @apply flex flex-col gap-[26px] items-center justify-center z-30 absolute inset-0 w-full h-full;
