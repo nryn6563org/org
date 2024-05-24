@@ -90,7 +90,7 @@ export default {
   @apply text-[32px] text-[#141414] tracking-[-0.352px] font-bold leading-10 text-center;
 }
 .visual {
-  @apply relative w-full h-[341px] flex items-center flex-col justify-center gap-5;
+  @apply relative w-full min-h-[341px] flex items-center flex-col justify-center gap-5;
 }
 .visual p {
   @apply absolute inset-0 z-10;
