@@ -1,5 +1,5 @@
 <template>
-  <button @click="goBackPage">
+  <button @click="goBack">
     <img src="~/assets/image/headerClose.png" alt="" width="24">
   </button>
 </template>

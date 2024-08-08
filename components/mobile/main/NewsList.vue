@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="TopTitleButton">
-      <button>
+      <button @click="goToNews">
         <strong class="ko">뉴스</strong>
         <strong class="en">News</strong>
         <svg
@@ -25,7 +25,7 @@
     <!-- //TopTitleButton -->
 
     <div class="MainNewsList">
-      <button class="list">
+      <button class="list" @click="goToNews">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -44,7 +44,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNews">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -63,7 +63,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNews">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -82,7 +82,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNews">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -101,7 +101,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNews">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -123,6 +123,15 @@
   </section>
 </template>
 
+<script>
+export default {
+  methods: {
+    goToNews() {
+      this.$router.push('/promotion/news')
+    }
+  }
+}
+</script>
 <style scoped>
 section {
   @apply w-full h-fit flex bg-white float-left flex-col justify-center items-center gap-6

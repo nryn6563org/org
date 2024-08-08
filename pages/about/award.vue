@@ -10,8 +10,7 @@ n<template>
     <div class="content">
       <div class="award_list">
         <div>
-          <strong>2022.12</strong>
-          <img src="~/assets/image/award/list01.png" alt="" />
+          <img src="~/assets/image/award/awd1.png" width="227" alt="" />
           <span class="ko">벤처창업진흥 유공포상<br />국무총리상 수상 </span>
           <span class="en">
             Received the Prime <br />Minister's Award for <br />
@@ -21,8 +20,7 @@ n<template>
         </div>
         <!-- // -->
         <div>
-          <strong>2016.12</strong>
-          <img src="~/assets/image/award/list02.png" alt="" />
+          <img src="~/assets/image/award/awd2.png" width="204" alt="" />
           <span class="ko"> 2016 전자 ICT <br />특허경영대상 금상 수상 </span>
           <span class="en">
             Won the Gold Medal at <br />
@@ -33,25 +31,13 @@ n<template>
         </div>
         <!-- // -->
         <div>
-          <strong>2013.12</strong>
-          <img src="~/assets/image/award/list03.png" alt="" />
+          <img src="~/assets/image/award/awd3.png" width="213" alt="" />
           <span class="ko">미래창조과학부 <br />장관상 수상 </span>
           <span class="en">
             Minister of Science, <br />
             ICT and Future Planning <br />
             Award for Internet <br />
             Technology Leadership
-          </span>
-        </div>
-        <!-- // -->
-        <div>
-          <strong>2012.12</strong>
-          <img src="~/assets/image/award/list04.png" alt="" />
-          <span class="ko">중소벤처유망LBS공모전<br />최우수상 수상 </span>
-          <span class="en">
-            Won the Grand Prize at <br />
-            the MSIT's Promising <br />
-            LBS Competition
           </span>
         </div>
         <!-- // -->
@@ -96,7 +82,8 @@ n<template>
         </div>
         <!-- // -->
 
-        <button>더보기</button>
+        <button class="ko">더보기</button>
+        <button class="en">more</button>
       </div>
     </div>
     <!-- //content -->
@@ -108,19 +95,16 @@ n<template>
   @apply mt-[60px] px-5;
 }
 .award_list {
-  @apply w-full flex justify-between gap-2.5 flex-wrap;
+  @apply w-full flex flex-col gap-[30px];
 }
 .award_list > div {
-  @apply w-[calc((100%-10px)/2)] flex flex-col py-5 justify-start items-center bg-[#fafafc] rounded-[12px];
+  @apply w-full h-[410px] flex flex-col gap-3 justify-center items-center bg-[#fafafc] rounded-[12px];
 }
 .award_list > div strong {
   @apply text-[16px] text-[#141414] leading-[18px] font-bold  pb-[28px];
 }
-.award_list > div img {
-  @apply w-[90px];
-}
 .award_list > div span {
-  @apply pt-4 text-[12px] text-[#444] tracking-[-0.132px] text-center;
+  @apply text-[14px] leading-[18px] text-[#444] tracking-[-0.132px] text-center;
 }
 
 .text_list {

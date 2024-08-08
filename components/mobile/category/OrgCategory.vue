@@ -17,7 +17,7 @@
     <!-- //home -->
     <div id="depth1" class="dropdown">
       <button>
-          <span class="ko">기업소개</span>
+          <span class="ko">회사소개</span>
           <span class="en">About Us</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,18 +50,12 @@ export default {
         { to: '/about/ceo', ko: 'CEO메시지', en: 'CEO Message' },
         { to: '/about/vision', ko: '비전', en: 'VISION' },
         { to: '/about/orghistory', ko: '연혁', en: 'Milestone' },
-        { to: '/about/patent', ko: '특허', en: 'Patent' },
+        { to: '/about/patent', ko: '지식재산권', en: 'Patent' },
         { to: '/about/award', ko: '수상', en: 'Award' },
         {
           to: '/about/certification',
           ko: '인증',
           en: 'Certification',
-        },
-        { to: '/about/welfare', ko: '복지제도', en: 'Welfare System' },
-        {
-          to: '/about/value',
-          ko: '인재상',
-          en: 'Our Values',
         },
         { to: '/about/contact', ko: '오시는길', en: 'Contact' },
         // ... 다른 메뉴 아이템들

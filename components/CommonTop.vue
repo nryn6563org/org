@@ -19,12 +19,12 @@ export default {
 
 <style scoped>
 .top {
-  @apply w-full py-[50px] flex flex-col items-center gap-2 px-5;
+  @apply w-full py-[50px] flex flex-col items-center gap-2;
 }
 .top em {
-  @apply text-[12px] text-[#9395a1] tracking-[-0.132px] leading-4;
+  @apply text-[12px] text-[#9395a1] tracking-[-0.132px] leading-4 w-full text-center
 }
 .top span {
-  @apply text-[32px] text-[#141414] tracking-[-0.352px] font-bold leading-10;
+  @apply text-[32px] text-[#141414] tracking-[-0.352px] font-bold leading-10 !w-full text-center
 }
 </style>

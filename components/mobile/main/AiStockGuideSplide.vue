@@ -6,7 +6,7 @@
   >
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div>
+        <NuxtLink to="/axrassi/rassi#sec02">
           <div class="txt ko">
             <strong>AXR1. PMS</strong>
             <span>
@@ -25,11 +25,11 @@
           <div
             class="vi bg-[url('~/assets/image/main/aistock/vi01.png')] bg-no-repeat bg-[length:61px_93px] ;"
           ></div>
-        </div>
+        </NuxtLink>
       </div>
       <!-- // -->
       <div class="swiper-slide">
-        <div>
+        <NuxtLink to="/axrassi/rassi#sec03">
           <div class="txt ko">
             <strong>AXR2. SMS</strong>
             <span>
@@ -49,11 +49,11 @@
           <div
             class="vi bg-[url('~/assets/image/main/aistock/vi03.png')] bg-no-repeat bg-[length:85px_81px] ;"
           ></div>
-        </div>
+        </NuxtLink>
       </div>
       <!-- // -->
       <div class="swiper-slide">
-        <div>
+        <NuxtLink to="/axrassi/rassi#sec04">
           <div class="txt ko">
             <strong>AXR3. TMS</strong>
             <span>
@@ -76,7 +76,7 @@
           <div
             class="vi bg-[url('~/assets/image/main/aistock/vi01.png')] bg-no-repeat bg-[length:81px_93px] ;"
           ></div>
-        </div>
+        </NuxtLink>
       </div>
       <!-- // -->
     </div>

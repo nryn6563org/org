@@ -1,12 +1,8 @@
 <template>
   <section>
     <div class="mainTopTitle">
-      <em class="ko">위치기반서비스</em>
-      <em class="en">Location-based services</em>
-      <strong class="ko">위치기반서비스</strong>
+      <strong class="ko">위치기반솔루션</strong>
       <strong class="en">Location-based services</strong>
-      <span class="ko">위치기반서비스</span>
-      <span class="en">Location-based services</span>
     </div>
     <!-- mainTopTitle -->
 

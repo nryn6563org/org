@@ -17,7 +17,8 @@
     <!-- //home -->
     <div id="depth1" class="dropdown">
       <button>
-          <span>IR</span>
+        <span class="ko">IR</span>
+        <span class="en">IR</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -30,24 +31,45 @@
       </button>
     </div>
     <!--//depth1 -->
-    <div id="depth2" class="dropdown">
-      <button>
-          <span class="ko">IR 바로가기</span>
-          <span class="en">IR</span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <path d="M17 10L12 15L7 10" stroke="#D9D9D9"></path>
-        </svg>
-      </button>
-    </div>
+    <CommonDropdown :dropdown-id="'depth2'" :menu-items="menuItems1" />
     <!-- //depth2 -->
   </div>
 </template>
+
+<script>
+import CommonDropdown from '@/components/CommonDropdown.vue'
+
+export default {
+  components: {
+    CommonDropdown,
+  },
+  data() {
+    return {
+      menuItems1: [
+        { to: '/ir/finance', ko: '재무정보', en: 'Financials' },
+        { to: '/ir/pd', ko: '공시정보', en: 'Public Disclosures' }
+        // ... 다른 메뉴 아이템들
+      ],
+    }
+  },
+  mounted() {
+    const currents = document.querySelectorAll('.current')
+    const changes = document.querySelectorAll('.change')
+    currents.forEach((current) => {
+      current.addEventListener('click', () => {
+        current.parentElement
+          .querySelector('.droplist')
+          .classList.toggle('active')
+      })
+    })
+    changes.forEach((change) => {
+      change.addEventListener('click', () => {
+        change.parentElement.classList.toggle('active')
+      })
+    })
+  },
+}
+</script>
 
 <style scoped>
 #category {

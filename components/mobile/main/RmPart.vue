@@ -1,14 +1,15 @@
 <template>
     <section>
         <div class="mainTopTitle">
-            <em class="ko">리스크관리솔루션</em>
-            <em class="en">Risk Management Solution</em>
             <strong class="ko">리스크관리솔루션</strong>
-            <strong class="en">RM Business</strong>
+            <strong class="en"></strong>
         </div>
         <!-- mainTopTitle -->
         <div class="mainTopTitleGuide">
-            <span>Risk Management</span>
+            <span class="ko">
+                체계적인 리스크 관리를 통해<br>안정적인 유동성을 공급합니다.
+            </span>
+            <span class="en"></span>
         </div>
         <!-- mainTopTitleGuide -->
 

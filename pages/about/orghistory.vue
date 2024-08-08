@@ -16,7 +16,7 @@
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <MobileHistorypageHistoryList01 />
+            <MobileHistorypageHistoryList03 />
           </div>
           <!-- // -->
           <div class="swiper-slide">
@@ -24,7 +24,7 @@
           </div>
           <!-- // -->
           <div class="swiper-slide">
-            <MobileHistorypageHistoryList03 />
+            <MobileHistorypageHistoryList01 />
           </div>
           <!-- // -->
         </div>
@@ -37,8 +37,8 @@
 <script scoped>
 export default {
   mounted() {
-    const paginationList = ['현재~2019', '2018~2016', '2015~창립']
-    const paginationListE = ['Now~2019', '2018~2016', '2015~Establish']
+    const paginationList = ['2015~창립', '2018~2016','현재~2019']
+    const paginationListE = ['2015~Establish', '2018~2016', 'Now~2019']
     const script = document.createElement('script')
     script.src =
       'https://fastly.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js'

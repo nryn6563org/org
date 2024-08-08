@@ -7,9 +7,9 @@
     </div>
     <!-- //title -->
 
-    <div class="visual">
+    <!-- <div class="visual">
       <img src="~/assets/image/about/vi01.png" alt="회사개요" />
-    </div>
+    </div> -->
     <!-- //visual -->
 
     <div class="text">
@@ -105,7 +105,7 @@
         </dd>
         <!-- // -->
         <dt>
-          <span class="ko">특허현황</span>
+          <span class="ko">지식재산권</span>
           <span class="en">Patents</span>
         </dt>
         <dd>
@@ -149,8 +149,11 @@
         <!-- // -->
       </dl>
 
-      <div class="date">
-        Date of reference: 2024.02
+      <div class="date ko">
+        기준일 : 2024.05.31
+      </div>
+      <div class="date en">
+        Date of reference : 2024.05.31
       </div>
     </div>
     <!-- //content -->

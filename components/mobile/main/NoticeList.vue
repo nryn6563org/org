@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="TopTitleButton">
-      <button>
+      <button @click="goToNotice">
         <strong class="ko">공지사항</strong>
         <strong class="en">Notice</strong>
         <svg
@@ -25,7 +25,7 @@
     <!-- //TopTitleButton -->
 
     <div class="MainNewsList">
-      <button class="list">
+      <button class="list" @click="goToNotice">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -44,7 +44,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNotice">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -63,7 +63,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNotice">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -82,7 +82,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNotice">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -101,7 +101,7 @@
       </button>
       <!-- list -->
 
-      <button class="list">
+      <button class="list" @click="goToNotice">
         <div class="top">
           <span class="ko">
             2022 벤처창업진흥 유공포상 국무총리상 수상 수상소감 어쩌고 저쩌고
@@ -122,6 +122,16 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    goToNotice(){
+      this.$router.push('/promotion/notice')
+    }
+  }
+}
+</script>
 
 <style scoped>
 section {

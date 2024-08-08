@@ -17,7 +17,7 @@
     <!-- //home -->
     <div id="depth1" class="dropdown">
       <button>
-        <span class="">ThinkPool AI</span>
+        <span class="">AI</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -46,7 +46,8 @@ export default {
     return {
       menuItems1: [
         { to: '/axrassi/rassi', ko: 'AX RASSI', en: 'AX RASSI' },
-        { to: '/axrassi/algorithms', ko: 'AI Algorithms', en: 'AI Algorithms' }
+        { to: '/axrassi/assistant', ko: '라씨매매비서', en: 'RASSI Trading Assistant' },
+        { to: '/axrassi/algorithms', ko: '알고리즘협업', en: 'AI Algorithms' }
       ],
     }
   },

@@ -1,10 +1,5 @@
 <template>
   <div id="container">
-    <div class="ch-lang">
-      <button :class="{ active: isKorActive }" @click="toggleKor">KR</button>
-      <button :class="{ active: isEngActive }" @click="toggleEng">EN</button>
-    </div>
-    <!-- // languege choice -->
 
     <div class="globalNavigation">
       <div class="mn">
@@ -39,7 +34,7 @@
           <NuxtLink to="/about/vision" class="en">VISION</NuxtLink>
           <NuxtLink to="/about/orghistory" class="ko">연혁</NuxtLink>
           <NuxtLink to="/about/orghistory" class="en">Milestones</NuxtLink>
-          <NuxtLink to="/about/patent" class="ko">특허</NuxtLink>
+          <NuxtLink to="/about/patent" class="ko">지식재산권</NuxtLink>
           <NuxtLink to="/about/patent" class="en">Patent</NuxtLink>
           <NuxtLink to="/about/award" class="ko">수상</NuxtLink>
           <NuxtLink to="/about/award" class="en">Award</NuxtLink>
@@ -47,10 +42,6 @@
           <NuxtLink to="/about/certification" class="en"
             >Certification</NuxtLink
           >
-          <NuxtLink to="/about/welfare" class="ko">복지제도</NuxtLink>
-          <NuxtLink to="/about/welfare" class="en">Welfare System</NuxtLink>
-          <NuxtLink to="/about/value" class="ko">인재상</NuxtLink>
-          <NuxtLink to="/about/value" class="en">Our Values</NuxtLink>
           <NuxtLink to="/about/contact" class="ko">오시는 길</NuxtLink>
           <NuxtLink to="/about/contact" class="en">Contact</NuxtLink>
         </div>
@@ -60,8 +51,7 @@
 
       <div class="mn">
         <button class="depth1">
-          <span class="ko">ThinkPool AI</span>
-          <span class="en">ThinkPool AI</span>
+          <span>AI</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -80,8 +70,12 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <NuxtLink to="/axrassi/rassi" class="">AX RASSI </NuxtLink>
-          <NuxtLink to="/axrassi/algorithms" class="">ThinkPool AI Algorithm</NuxtLink>
+          <NuxtLink to="/axrassi/rassi" class="ko">AX 라씨</NuxtLink>
+          <NuxtLink to="/axrassi/rassi" class="en">AX RASSI</NuxtLink>
+          <NuxtLink to="" class="ko">라씨매매비서</NuxtLink>
+          <NuxtLink to="" class="en">라씨매매비서</NuxtLink>
+          <NuxtLink to="/axrassi/algorithms" class="ko">알고리즘 협업</NuxtLink>
+          <NuxtLink to="/axrassi/algorithms" class="en">ThinkPool AI Algorithm</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -89,7 +83,7 @@
 
       <div class="mn">
         <button class="depth1">
-          <span class="ko">위치기반서비스</span>
+          <span class="ko">위치기반솔루션</span>
           <span class="en">LBS</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -142,6 +136,8 @@
         <div class="depth2">
           <NuxtLink to="/business/rm/rms" class="ko">RMS통제시스템</NuxtLink>
           <NuxtLink to="/business/rm/rms" class="en">RMS Control System</NuxtLink>
+          <NuxtLink to="" class="ko">온투업RMS시스템</NuxtLink>
+          <NuxtLink to="" class="en">RMS</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -205,6 +201,12 @@
           <NuxtLink to="/promotion/notice" class="ko">공지사항</NuxtLink>
           <NuxtLink to="/promotion/notice" class="en">Notice</NuxtLink>
           <NuxtLink to="/promotion/news">News</NuxtLink>
+          <NuxtLink to="/promotion/social" class="ko">소셜미디어</NuxtLink>
+          <NuxtLink to="/promotion/social" class="en">Social Media</NuxtLink>
+          <NuxtLink to="/promotion/csr" class="ko">사회공헌활동</NuxtLink>
+          <NuxtLink to="/promotion/csr" class="en">CSR</NuxtLink>
+          <NuxtLink to="/promotion/contact" class="ko">문의하기</NuxtLink>
+          <NuxtLink to="/promotion/contact" class="en">Contact</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -232,8 +234,12 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <NuxtLink to="/ir" class="ko">IR 바로 가기</NuxtLink>
-          <NuxtLink to="/ir" class="en">IR</NuxtLink>
+          <!-- <NuxtLink to="/ir" class="ko">IR 바로 가기</NuxtLink>
+          <NuxtLink to="/ir" class="en">IR</NuxtLink> -->
+          <NuxtLink to="/ir/finance" class="ko">재무정보</NuxtLink>
+          <NuxtLink to="/ir/finance" class="en">Financials</NuxtLink>
+          <NuxtLink to="/ir/pd" class="ko">공시정보</NuxtLink>
+          <NuxtLink to="/ir/pd" class="en">Public Disclosures</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -261,6 +267,10 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
+          <NuxtLink to="/about/welfare" class="ko">복지제도</NuxtLink>
+          <NuxtLink to="/about/welfare" class="en">Welfare System</NuxtLink>
+          <NuxtLink to="/about/value" class="ko">인재상</NuxtLink>
+          <NuxtLink to="/about/value" class="en">Our Values</NuxtLink>
           <NuxtLink to="/careers/recruit" class="ko">채용공고</NuxtLink>
           <NuxtLink to="/careers/recruit" class="en">Recruit</NuxtLink>
         </div>
@@ -273,12 +283,6 @@
 </template>
 <script scoped>
 export default {
-  data() {
-    return {
-      isKorActive: true,
-      isEngActive: false,
-    }
-  },
   mounted() {
     const depth1Menu = document.querySelectorAll('.depth1')
 
@@ -292,33 +296,11 @@ export default {
       })
     })
   },
-  methods: {
-    toggleKor() {
-      this.isKorActive = !this.isKorActive
-      if (this.isKorActive) {
-        this.isEngActive = false
-        document.body.classList.remove('eng')
-        document.body.classList.add('kor')
-      } else {
-        document.body.classList.remove('kor')
-      }
-    },
-    toggleEng() {
-      this.isEngActive = !this.isEngActive
-      if (this.isEngActive) {
-        this.isKorActive = false
-        document.body.classList.remove('kor')
-        document.body.classList.add('eng')
-      } else {
-        document.body.classList.remove('eng')
-      }
-    },
-  },
 }
 </script>
 <style scoped>
 #container {
-  @apply w-full min-h-[calc(100%-301px)] block pt-[90px] snap-y relative;
+  @apply w-full min-h-[calc(100%-301px)] block pt-[50px] snap-y relative;
 }
 .depth1 > span {
   @apply text-neutral-900 text-[20px] font-bold tracking-[-0.22px];

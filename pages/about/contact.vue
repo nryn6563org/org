@@ -15,9 +15,12 @@
 
       <div class="txt">
         <span class="ko">
-          지하철 5호선/9호선 여의도역하차 5번 출구(KRX한국거래소 방향)로
-          나오셔서 10분 거리 지하철 9호선 샛강역하차 2번출구(KBS별관 방향)로
-          나오셔서 8분 거리
+          지하철 5호선/9호선 여의도역 하차 5번출구 <br>
+          (KRX한국거래소 방향)로 나와서 10분거리. <br>
+          지하철 9호선 샛강역 하차 2번출구 <br>
+          (KBS별관 방향)로 나와서 8분 거리.
+          <br><br>
+          <a href="https://m.place.naver.com/place/12115898/location" target="_blank" class="underline">씽크풀 - 네이버지도</a>
         </span>
         <span class="en">
           Take Subway Line 5 / Subway Line 9 Yeouido Station Exit 5 (KRX Korea

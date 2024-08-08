@@ -6,7 +6,7 @@
   >
     <div class="swiper-wrapper">
       <div class="swiper-slide non-bg">
-          <div>
+          <NuxtLink to="/business/lbs/location">
             <div class="txt ko">
               <strong>로그인 보호 서비스</strong>
               <span>
@@ -27,11 +27,11 @@
             <div
               class="vi bg-[url('~/assets/image/main/lbs/vi01.png')] bg-no-repeat bg-[length:96px_93px] ;"
             ></div>
-          </div>
+          </NuxtLink>
         </div>
         <!-- // -->
         <div class="swiper-slide non-bg">
-          <div>
+          <NuxtLink to="/business/lbs/prevention">
             <div class="txt ko">
               <strong>안심키퍼 서비스</strong>
               <span>
@@ -50,7 +50,7 @@
             <div
               class="vi bg-[url('~/assets/image/main/lbs/vi02.png')] bg-no-repeat bg-[length:93px_93px] ;"
             ></div>
-          </div>
+          </NuxtLink>
         </div>
         <!-- // -->
     </div>

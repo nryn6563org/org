@@ -17,7 +17,7 @@
     <!-- //home -->
     <div id="depth1" class="dropdown">
       <button>
-        <span class="ko">위치기반서비스</span>
+        <span class="ko">위치기반솔루션</span>
         <span class="en">LBS</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

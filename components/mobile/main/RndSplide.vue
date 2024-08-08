@@ -6,6 +6,7 @@
   >
     <div class="swiper-wrapper">
       <div class="swiper-slide rm non-bg">
+        <NuxtLink to="/rnd/national">
         <div>
           <div
             class="vi bg-[url('~/assets/image/main/rnd/vi01.png')] bg-no-repeat bg-[length:101px_87px] ;"
@@ -28,10 +29,12 @@
           </div>
           <!-- en -->
         </div>
+        </NuxtLink>
       </div>
       <!-- // -->
 
       <div class="swiper-slide rm non-bg">
+        <NuxtLink to="/rnd/national">
         <div>
           <div
             class="vi bg-[url('~/assets/image/main/rnd/vi02.png')] bg-no-repeat bg-[length:92px_94px] ;"
@@ -50,10 +53,12 @@
           </div>
           <!-- en -->
         </div>
+        </NuxtLink>
       </div>
       <!-- // -->
 
       <div class="swiper-slide rm non-bg">
+        <NuxtLink to="/rnd/national">
         <div>
           <div
             class="vi bg-[url('~/assets/image/main/rnd/vi03.png')] bg-no-repeat bg-[length:92px_85px] ;"
@@ -75,6 +80,7 @@
           </div>
           <!-- en -->
         </div>
+        </NuxtLink>
       </div>
       <!-- // -->
     </div>

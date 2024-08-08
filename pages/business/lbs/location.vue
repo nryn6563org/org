@@ -89,7 +89,7 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'LBS',
+        sm: '위치기반솔루션',
         ko: '로그인보호서비스',
         en: 'Login Protection Services',
       },
@@ -99,6 +99,9 @@ export default {
 </script>
 
 <style scoped>
+#lbs{
+  @apply w-full bg-[#EFF2FB]
+}
 .guide {
   @apply w-[calc(100%-40px)] mx-auto rounded-[12px] shadow-[0px_2px_8px_0px_rgba(0,0,0,0.15)] bg-white p-[25px_15px];
 }

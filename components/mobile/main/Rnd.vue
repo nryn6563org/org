@@ -1,13 +1,11 @@
 <template>
   <section>
-    <div class="mainTopTitle use-bg ko">
-      <em>국가R&D</em>
+    <div class="mainTopTitle use-bg">
       <strong>연구개발 및 <br />국책과제 수행</strong>
     </div>
     <!-- mainTopTitle -->
 
     <div class="mainTopTitle use-bg en">
-      <em>Nation R&D</em>
       <strong>Conducting R&D and Government <br>projects</strong>
     </div>
 

@@ -17,7 +17,7 @@
     <!-- //home -->
     <div id="depth1" class="dropdown">
       <button>
-          <span class="ko">혁신R&D</span>
+          <span class="ko">기업부설연구소</span>
           <span class="en">Company-affiliated research center</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

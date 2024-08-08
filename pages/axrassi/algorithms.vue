@@ -11,7 +11,7 @@
     </div>
 
     <div class="vi">
-      <img src="~/assets/image/axrassi/algorithm.png" alt="" width="100%" class="ko">
+      <img src="~/assets/image/algorithm.png" alt="" width="100%" class="ko">
       <img src="~/assets/image/axrassi/algorithm.png" alt="" width="100%" class="en">
     </div>
 
@@ -68,8 +68,8 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'ThinkPool AI Algorithms',
-        ko: 'ThinkPool AI Algorithms',
+        sm: 'AI',
+        ko: '알고리즘협업',
         en: 'ThinkPool AI Algorithms'
       }
     }

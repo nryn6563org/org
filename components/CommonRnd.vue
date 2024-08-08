@@ -92,6 +92,9 @@ export default {
 .visual {
   @apply relative w-full min-h-[341px] flex items-center flex-col justify-center gap-5;
 }
+.visual p{
+  @apply absolute 
+}
 .visual span {
   @apply z-20 text-[16px] leading-5 text-white text-center;
 }

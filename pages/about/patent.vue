@@ -1,110 +1,358 @@
 <template>
   <div id="aboutus">
     <div class="title">
-      <span>Patent</span>
-      <strong class="ko">특허</strong>
-      <strong class="en">Patent</strong>
+      <span>Intellectual property</span>
+      <strong class="ko">지식재산권</strong>
+      <strong class="en">Intellectual property</strong>
     </div>
     <!-- //title -->
 
     <div class="text-center txt">
       <span class="ko">
-        씽크풀은 총 <em>97</em>건의 등록특허와 <br />
-        <em>11</em>건의 특허출원을 보유하고 <br />
-        있습니다.
+        씽크풀은 <em>99</em>건의 등록특허와<br />
+        <em>6</em>건의 상표권을 보유하고 있으며 <br />
+        <em>20</em>건의 특허 출원을 진행중입니다.
       </span>
       <span class="en">
         ThinkPool has a total of <em>97</em><br />
         registered patents and <em>11</em><br />
         patent applications.
       </span>
+
+      <p class="ko">2024.05.31 현재</p>
+      <p class="en"></p>
     </div>
     <!-- //txt -->
 
     <div class="content">
-      <div class="patent_con">
-        <div>
-          <strong class="ko">RASSI</strong>
-          <strong class="en">RASSI</strong>
-          <span class="guide ko"
-            >인공지능 기반의 종목연관 키워드 결정방법 및 그 <br />시스템</span
-          >
-          <span class="guide ko">주문전략 제공방법 및 그 시스템</span>
-          <span class="guide ko">지능형 이벤트 정보 제공방법 및 그 시스템</span>
-          <span class="guide ko"
-            >혼합 포트폴리오 관리 시스템 및 그 제공방법</span
-          >
-          <span class="guide ko"
-            >투자 어드바이스 제공 방법 및 투자 어드바이스 제공 <br />서버</span
-          >
-          <span class="guide en"
-            >Method for determining keywords related to stocks based on
-            artificial intelligence and its system</span
-          >
-          <span class="guide en"
-            >Order strategy delivery methods and systems</span
-          >
-          <span class="guide en"
-            >Methods and systems for providing intelligent event information
-          </span>
-          <span class="guide en"
-            >Blended portfolio management systems and how they are delivered
-          </span>
-          <span class="guide en"
-            >How investment advice is delivered and where it is delivered
-          </span>
+      <div class="patent_tbl">
+        <div class="top">
+          <strong class="ko">AI<em>(25건)</em></strong>
         </div>
         <!-- // -->
-        <div>
-          <strong class="ko">로그인도용방지</strong>
-          <strong class="en">Login Abuse Prevention System </strong>
-          <span class="guide ko">지능형 로그인 인증 시스템 및 그 방법</span>
-          <span class="guide ko">스마트폰 도용방지 서비스 방법 및 시스템</span>
-          <span class="guide ko">위치기반의 서비스 보안 시스템 및 그 방법</span>
-          <span class="guide en"
-            >Intelligent login authentication systems and how they work
-          </span>
-          <span class="guide en"
-            >Smartphone anti-theft service methods and systems
-          </span>
-          <span class="guide en"
-            >Services security systems for location devices and how they work
-          </span>
-        </div>
-        <!-- // -->
-        <div>
-          <strong class="ko">RMS</strong>
-          <strong class="en">RMS</strong>
-          <span class="guide ko"
-            >온라인 주식 거래 및 대출을 위한 실시간 리스크 관리/ 통제 시스템 및
-            그 방법</span
-          >
-          <span class="guide ko"
-            >반대매매 관리시스템, 계좌운영 시스템 및 그 방법</span
-          >
-          <span class="guide en"
-            >Real-time risk management/control system for online stock trading
-            and lending, and method thereof
-          </span>
-          <span class="guide en"
-            >Countertrade management system, account management system, and
-            method thereof
-          </span>
-        </div>
-        <!-- // -->
-        <div>
-          <strong class="ko">특허경영대상 수상</strong>
-          <strong class="en">Patent Management Award Winner</strong>
-          <span class="">
-            <img src="~/assets/image/patent.png" alt="특허경영대상" />
-          </span>
-        </div>
-        <!-- // -->
+        <table width="100%">
+          <colgroup>
+            <col width="115">
+            <col width="*">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="row">
+                <span class="ko">등록번호</span>
+                <span class="en"></span>
+              </th>
+              <th scope="row">
+                <span class="ko">특허명칭</span>
+                <span class="en"></span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button>
+          <span class="ko">더보기</span>
+          <span class="en">more</span>
+        </button>
       </div>
       <!-- // -->
 
-      <div class="h-[120px]"></div>
+      <div class="patent_tbl">
+        <div class="top">
+          <strong class="ko">로그인보호솔루션<em>(11건)</em></strong>
+        </div>
+        <!-- // -->
+        <table width="100%">
+          <colgroup>
+            <col width="115">
+            <col width="*">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="row">
+                <span class="ko">등록번호</span>
+                <span class="en"></span>
+              </th>
+              <th scope="row">
+                <span class="ko">특허명칭</span>
+                <span class="en"></span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button>
+          <span class="ko">더보기</span>
+          <span class="en">more</span>
+        </button>
+      </div>
+      <!-- // -->
+
+      <div class="patent_tbl">
+        <div class="top">
+          <strong class="ko">리스크관리솔루션<em>(10건)</em></strong>
+        </div>
+        <!-- // -->
+        <table width="100%">
+          <colgroup>
+            <col width="115">
+            <col width="*">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="row">
+                <span class="ko">등록번호</span>
+                <span class="en"></span>
+              </th>
+              <th scope="row">
+                <span class="ko">특허명칭</span>
+                <span class="en"></span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button>
+          <span class="ko">더보기</span>
+          <span class="en">more</span>
+        </button>
+      </div>
+      <!-- // -->
+
+      <div class="patent_tbl">
+        <div class="top">
+          <strong class="ko">상표권현황</strong>
+        </div>
+        <!-- // -->
+        <table width="100%">
+          <colgroup>
+            <col width="145">
+            <col width="*">
+          </colgroup>
+          <tbody>
+            <tr>
+              <th scope="col">
+                <span>Network Synergy <br>THINKPOOL</span>
+              </th>
+              <td>
+                <img src="~/assets/image/cnc/cnc1.png" alt="씽크풀" width="130">
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">
+                <span>RASSI</span>
+              </th>
+              <td>
+                <img src="~/assets/image//cnc/cnc2.png" alt="라씨" width="64">
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">
+                <span class="ko">레이더스탁</span>
+                <span class="en">Radar Stock</span>
+              </th>
+              <td>
+                <img src="~/assets/image//cnc/cnc3.png" alt="레이더스탁" width="83">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button>
+          <span class="ko">더보기</span>
+          <span class="en">more</span>
+        </button>
+      </div>
+      <!-- // -->
+
+      <div class="patent_tbl">
+        <div class="top">
+          <strong class="ko">리스크관리솔루션<em>(10건)</em></strong>
+        </div>
+        <!-- // -->
+        <table>
+          <thead>
+            <tr>
+              <th scope="row">
+                <span class="ko">등록번호</span>
+                <span class="en"></span>
+              </th>
+              <th scope="row">
+                <span class="ko">특허명칭</span>
+                <span class="en"></span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+            <tr>
+              <th scope="col">10-12345</th>
+              <td>
+                <span class="ko">인공지능 기반의 투자지표 결정방법 및 그 시스템</span>
+                <span class="en"></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button>
+          <span class="ko">더보기</span>
+          <span class="en">more</span>
+        </button>
+      </div>
+      <!-- // -->
+
+      <div class="patent_tbl">
+        <div class="top">
+          <strong class="ko">특허경영대상 수상</strong>
+        </div>
+        <!-- // -->
+         
+        <p><img src="~/assets/image/patent.png" alt="대상"></p>
+      </div>
+      <!-- // -->
+
+      <div class="h-[200px]"></div>
+       
     </div>
+    <!-- //content -->
   </div>
 </template>
 
@@ -115,17 +363,46 @@
 #aboutus .txt em {
   @apply text-[#5368ff] font-bold;
 }
-
-.patent_con {
-  @apply w-full px-5 pt-[70px] flex flex-col gap-[50px];
+#aboutus .txt p {
+  @apply pt-[5px] w-full text-center text-[14px] text-[#9395a1] leading-[18px];
 }
-.patent_con > div {
-  @apply flex flex-col w-full;
+.content{
+  @apply flex flex-col gap-10
 }
-.patent_con > div strong {
-  @apply text-[16px] text-[#141414] font-bold pb-2.5 leading-5;
+.patent_tbl{
+  @apply w-full px-5
 }
-.patent_con > div span.guide {
-  @apply pl-4 text-[#444] tracking-[-0.154px] text-[14px] before:content-['ㆍ'] before:absolute relative before:left-0;
+.patent_tbl .top{
+  @apply w-full pb-2.5
+}
+.patent_tbl .top strong{
+  @apply text-[16px] text-[#141414]
+}
+.patent_tbl .top strong em{
+  @apply font-normal
+}
+.patent_tbl table{
+  @apply w-full border-t-[1px] border-[#dcdcdc]
+}
+.patent_tbl th{
+  @apply bg-[#fafafa] p-2.5 border-[1px] border-[#dcdcdc] text-[14px] text-[#646464] font-normal
+}
+.patent_tbl thead th:first-child{
+  @apply border-l-0
+}
+.patent_tbl thead th:last-child{
+  @apply border-r-0
+}
+.patent_tbl tbody th{
+  @apply border-l-0 border-b-[#f0f0f0] text-start
+}
+.patent_tbl tbody td{
+  @apply p-2.5 text-[14px] leading-[18px] text-[#141414] border-[1px] border-[#dcdcdc] border-r-0 border-b-[#f0f0f0]
+}
+.patent_tbl tbody td img{
+  @apply mx-auto
+}
+.patent_tbl button{
+  @apply w-[175px] m-[30px_auto_0] h-10 flex justify-center items-center text-[14px] text-[#141414] rounded-[5px] bg-[#F4F5F6]
 }
 </style>

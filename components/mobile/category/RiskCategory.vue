@@ -46,7 +46,8 @@ export default {
   data() {
     return {
       menuItems1: [
-        { to: '/business/rm/rms', ko: 'RMS통제시스템', en: 'RMS System' }
+        { to: '/business/rm/rms', ko: 'RMS통제시스템', en: 'RMS System' },
+        { to: '/business/rm/ontoup', ko: '온투업RMS시스템', en: 'RMS System' }
       ],
     }
   },

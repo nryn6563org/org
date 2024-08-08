@@ -42,7 +42,7 @@ export default {
           ko: 'ThinkPool AI',
           en: 'ThinkPool AI',
         },
-        { id: 'lbs', to: '/business/lbs/location', ko: '위치기반서비스', en: 'LBS' },
+        { id: 'lbs', to: '/business/lbs/location', ko: '위치기반솔루션', en: 'LBS' },
         { id: 'rms', to: '/business/rm/rms', ko: '리스크관리솔루션', en: 'RMS' },
       ],
       menuItems1: [

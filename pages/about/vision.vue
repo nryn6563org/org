@@ -8,7 +8,7 @@
     <!-- //title -->
 
     <div class="visual">
-      <img src="~/assets/image/about/vi03.png" alt="ceo" />
+      <img src="~/assets/image/vision.png" alt="테크비전" />
     </div>
     <!-- //visual -->
 
@@ -29,43 +29,8 @@
     <!-- //text -->
 
     <div class="content">
-      <div class="vision_list">
-        <div>
-          <strong>01</strong>
-          <span class="ko">
-            투자금융과 마이데이터 분야에서는 씽크풀만의 독자적인 기술을 더욱
-            발전시켜 글로벌 경쟁력을 갖추고 글로벌 기업으로 성장해 나가겠습니다.
-          </span>
-          <span class="en">
-            We will further develop Thinkpool's unique technologies in the
-            fields of investment banking and big data to grow into a global
-            company with global competitiveness.
-          </span>
-        </div>
-        <div>
-          <strong>02</strong>
-          <span class="ko">
-            투자금융과 마이데이터 분야에서는 씽크풀만의 독자적인 기술을 더욱
-            발전시켜 글로벌 경쟁력을 갖추고 글로벌 기업으로 성장해 나가겠습니다.
-          </span>
-          <span class="en">
-            We will further develop Thinkpool's unique technologies in the
-            fields of investment banking and big data to grow into a global
-            company with global competitiveness.
-          </span>
-        </div>
-        <div>
-          <strong>03</strong>
-          <span class="ko">
-            투자금융과 마이데이터 분야에서는 씽크풀만의 독자적인 기술을 더욱
-            발전시켜 글로벌 경쟁력을 갖추고 글로벌 기업으로 성장해 나가겠습니다.
-          </span>
-          <span class="en">
-            We will further develop Thinkpool's unique technologies in the
-            fields of investment banking and big data to grow into a global
-            company with global competitiveness.
-          </span>
-        </div>
+      <div class="mx-auto w-[280px] p-[70px_0_40px]">
+        <img src="~/assets/image/vision2.png" alt="철학" width="280" />
       </div>
     </div>
     <!-- //content -->

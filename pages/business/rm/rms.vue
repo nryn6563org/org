@@ -2,7 +2,7 @@
   <div id="rm">
     <CommonTop :top-items="topItems" />
 
-    <div class="cont pt-[65px]">
+    <div class="cont pt-[15px]">
       <div class="rms">
         <div class="top-[8px] left-[110px]">
           <span class="ko">
@@ -16,8 +16,8 @@
 
         <div class="bottom-[16px] left-[11px]">
           <span class="ko">
-            대출잔고<br />
-            <em>1,200</em>억원
+            신규대출 취급액<br />
+            <em>3</em>조 <em>5,000</em>억원
           </span>
           <span class="en">
             LB <br />
@@ -65,7 +65,20 @@
           12 securities firms, 22 lenders, 75 products in total
         </span>
 
-        <p><img src="~/assets/image/rm/rms-org.png" alt="협력업체" /></p>
+        <div class="cnc">
+          <a href="#"><img width="122" src="~/assets/image/cnc/cnc11.png" alt=""></a>
+          <a href="#"><img width="115" src="~/assets/image/cnc/cnc12.png" alt=""></a>
+          <a href="#"><img width="113" src="~/assets/image/cnc/cnc13.png" alt=""></a>
+          <a href="#"><img width="79" src="~/assets/image/cnc/cnc5.png" alt=""></a>
+          <a href="#"><img width="101" src="~/assets/image/cnc/cnc14.png" alt=""></a>
+          <a href="#"><img width="82" src="~/assets/image/cnc/cnc6.png" alt=""></a>
+          <a href="#"><img width="61" src="~/assets/image/cnc/cnc15.png" alt=""></a>
+          <a href="#"><img width="128" src="~/assets/image/cnc/cnc16.png" alt=""></a>
+          <a href="#"><img width="128" src="~/assets/image/cnc/cnc17.png" alt=""></a>
+          <a href="#"><img width="119" src="~/assets/image/cnc/cnc18.png" alt=""></a>
+          <a href="#"><img width="106" src="~/assets/image/cnc/cnc19.png" alt=""></a>
+          <a href="#"><img width="99" src="~/assets/image/cnc/cnc20.png" alt=""></a>
+        </div>
       </div>
     </div>
   </div>
@@ -81,7 +94,7 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'RMS',
+        sm: '리스크관리솔루션',
         ko: 'RMS통제시스템',
         en: 'RMS System',
       },
@@ -91,6 +104,9 @@ export default {
 </script>
 
 <style scoped>
+#rm{
+  @apply bg-[#EFF2FB]
+}
 .rms {
   @apply w-[324px] h-[334px] mx-auto bg-[url(~/assets/image/rm/rms.png)] bg-cover relative;
 }
@@ -111,7 +127,10 @@ export default {
   @apply block pb-5;
 }
 
-p {
-  @apply w-full mx-auto bg-white rounded-[6px] p-3;
+.cnc{
+  @apply w-full flex gap-2 flex-wrap
+}
+.cnc a{
+  @apply w-[156px] h-[45px] rounded-[6px] bg-white flex justify-center items-center
 }
 </style>

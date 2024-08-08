@@ -87,9 +87,9 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'Notice',
-        ko: '공지사항',
-        en: 'Notice',
+        sm: '홍보센터',
+        ko: '뉴스',
+        en: 'News',
       },
     }
   },

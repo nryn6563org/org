@@ -1,8 +1,13 @@
 <template>
   <section>
     <div class="mainTopTitle">
-      <em>ThinkPool AI</em>
-      <strong>AX RASSI</strong>
+      <NuxtLink to="/axrassi/rassi#sec01" class="ko">
+        AX 라씨
+      </NuxtLink>
+      <NuxtLink to="/axrassi/rassi#sec01" class="en">
+        AX RASSI
+      </NuxtLink>
+      <!-- 링크되었을때 스크롤 되도록 scrollTop 의 위치가 0 이 아니라 84px 만큼 - 되어야 함 -->
     </div>
     <!-- mainTopTitle -->
     <div class="mainTopTitleGuide ko">

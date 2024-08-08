@@ -47,7 +47,7 @@
       <strong class="ko">병역특례지정업체정보</strong>
       <strong class="en">Military Service Designee Information</strong>
       <dl>
-        <dt>
+        <dt class="!pt-0">
           <span class="ko">업체명</span>
           <span class="en">Company name </span>
         </dt>
@@ -178,7 +178,7 @@
 }
 
 .cont dl dt {
-  @apply text-[#141414] font-bold leading-[22px] text-[14px] tracking-[-0.154px];
+  @apply text-[#141414] font-bold leading-[22px] text-[14px] tracking-[-0.154px] pt-5;
 }
 
 .cont dl dd {
