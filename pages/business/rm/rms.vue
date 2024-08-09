@@ -94,9 +94,9 @@ export default {
   data() {
     return {
       topItems: {
-        sm: '리스크관리솔루션',
+        sm: 'RMS Control System',
         ko: 'RMS통제시스템',
-        en: 'RMS System',
+        en: 'RMS Control System',
       },
     }
   },

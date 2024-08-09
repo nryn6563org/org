@@ -72,8 +72,8 @@
         <div class="depth2">
           <NuxtLink to="/axrassi/rassi" class="ko">AX 라씨</NuxtLink>
           <NuxtLink to="/axrassi/rassi" class="en">AX RASSI</NuxtLink>
-          <NuxtLink to="" class="ko">라씨매매비서</NuxtLink>
-          <NuxtLink to="" class="en">라씨매매비서</NuxtLink>
+          <NuxtLink to="/axrassi/assistant" class="ko">라씨매매비서</NuxtLink>
+          <NuxtLink to="/axrassi/assistant" class="en">RASSI Trading Assistant</NuxtLink>
           <NuxtLink to="/axrassi/algorithms" class="ko">알고리즘 협업</NuxtLink>
           <NuxtLink to="/axrassi/algorithms" class="en">ThinkPool AI Algorithm</NuxtLink>
         </div>
@@ -136,8 +136,8 @@
         <div class="depth2">
           <NuxtLink to="/business/rm/rms" class="ko">RMS통제시스템</NuxtLink>
           <NuxtLink to="/business/rm/rms" class="en">RMS Control System</NuxtLink>
-          <NuxtLink to="" class="ko">온투업RMS시스템</NuxtLink>
-          <NuxtLink to="" class="en">RMS</NuxtLink>
+          <NuxtLink to="/business/rm/ontoup" class="ko">온투업RMS시스템</NuxtLink>
+          <NuxtLink to="/business/rm/ontoup" class="en">Online Investment-Linked Financial Business RMS System</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>
@@ -267,10 +267,10 @@
         </button>
         <!-- depth1 -->
         <div class="depth2">
-          <NuxtLink to="/about/welfare" class="ko">복지제도</NuxtLink>
-          <NuxtLink to="/about/welfare" class="en">Welfare System</NuxtLink>
-          <NuxtLink to="/about/value" class="ko">인재상</NuxtLink>
-          <NuxtLink to="/about/value" class="en">Our Values</NuxtLink>
+          <NuxtLink to="/careers/welfare" class="ko">복지제도</NuxtLink>
+          <NuxtLink to="/careers/welfare" class="en">Welfare System</NuxtLink>
+          <NuxtLink to="/careers/value" class="ko">인재상</NuxtLink>
+          <NuxtLink to="/careers/value" class="en">Our Values</NuxtLink>
           <NuxtLink to="/careers/recruit" class="ko">채용공고</NuxtLink>
           <NuxtLink to="/careers/recruit" class="en">Recruit</NuxtLink>
         </div>

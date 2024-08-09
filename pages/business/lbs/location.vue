@@ -4,7 +4,8 @@
 
     <div class="cont">
       <p class="p-[55px_24px_0]">
-        <img src="~/assets/image/lbs/prevention.png" alt="" />
+        <img class="ko" src="~/assets/image/lbs/prevention.png" alt="" />
+        <img class="en" src="~/assets/image/lbs/prevention_en.png" alt="" />
       </p>
       <!-- // -->
       <div class="guide mt-[-4px]">
@@ -89,7 +90,7 @@ export default {
   data() {
     return {
       topItems: {
-        sm: '위치기반솔루션',
+        sm: 'Login Protection Service',
         ko: '로그인보호서비스',
         en: 'Login Protection Services',
       },

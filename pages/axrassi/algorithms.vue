@@ -12,7 +12,7 @@
 
     <div class="vi">
       <img src="~/assets/image/algorithm.png" alt="" width="100%" class="ko">
-      <img src="~/assets/image/axrassi/algorithm.png" alt="" width="100%" class="en">
+      <img src="~/assets/image/algorithm_en.png" alt="" width="100%" class="en">
     </div>
 
     <div class="bnrList">
@@ -68,9 +68,9 @@ export default {
   data() {
     return {
       topItems: {
-        sm: 'AI',
+        sm: 'Collaborate on Algorithms',
         ko: '알고리즘협업',
-        en: 'ThinkPool AI Algorithms'
+        en: 'Collaborate on Algorithms'
       }
     }
   }

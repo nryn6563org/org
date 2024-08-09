@@ -1,15 +1,7 @@
 <template>
   <div id="mil">
-    <div class="top">
-      <em class="ko">병역특례</em>
-      <em class="en">National R&D</em>
-      <span class="ko">
-        기업부설연구소 <br>전문연구요원
-      </span>
-      <span class="en">
-        Corporate research institute researchers
-      </span>
-    </div>
+    <CommonTop :top-items="topItems" />
+    <!-- // -->
     <div class="visual">
       <p>
         <img src="~/assets/image/rnd/mil.png" alt="병역특례">
@@ -109,6 +101,22 @@
 </template>
 
 <script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'Technical Research Personnel',
+        ko: '병역특례',
+        en: 'Technical Research Personnel',
+      },
+    }
+  },
+}
 </script>
 
 <style scoped>

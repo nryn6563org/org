@@ -192,7 +192,7 @@ em {
 
 /*  ======================== 기업소개 공통 ========================  */
 #aboutus {
-  @apply w-full pt-[50px];
+  @apply w-full;
 }
 #aboutus .title {
   @apply flex flex-col items-center gap-[6px];
@@ -222,6 +222,9 @@ em {
 }
 #aboutus .text .txt span {
   @apply text-[#444] text-[16px] leading-6 tracking-[-0.176px];
+}
+#aboutus .top{
+  @apply pb-0
 }
 
 .content {
@@ -305,4 +308,11 @@ em {
 
 .dropdown > button span {
   @apply leading-3 text-left block w-full;
+}
+
+.eng .title span{
+  @apply hidden
+}
+.eng .top em{
+  @apply hidden
 }

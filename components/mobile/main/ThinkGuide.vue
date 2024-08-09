@@ -12,11 +12,16 @@
     </div>
 
     <div class="en">
-      ThinkPool has a total of <br />
-      <em>97 issued patents</em><br />
-      and<br />
-      <em>11 pending patent applications.</em>
+      <span>
+        ThinkPool is a knowledge company <br>
+        with <em>99</em> registered patents, <em>6</em> <br>
+        trademarks, and <em>20</em> pending patent <br>
+        applications. 
+      </span>
+
+      <span>As of May 31, 2024  </span>
     </div>
+    
   </section>
 </template>
 

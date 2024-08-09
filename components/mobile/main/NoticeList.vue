@@ -3,7 +3,7 @@
     <div class="TopTitleButton">
       <button @click="goToNotice">
         <strong class="ko">공지사항</strong>
-        <strong class="en">Notice</strong>
+        <strong class="en">Announcements</strong>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

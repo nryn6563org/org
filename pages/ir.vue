@@ -1,13 +1,14 @@
 <template>
   <div id="container" class="sub">
-    <MobileCategoryIRCategory />
+    <MobileCategoryIrCategory />
     <NuxtChild />
   </div>
 </template>
 
 <script>
+
 export default {
-  layout: 'custom',
+  layout: 'custom'
 }
 </script>
 

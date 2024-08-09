@@ -2,7 +2,7 @@
   <section>
     <div class="mainTopTitle">
       <strong class="ko">위치기반솔루션</strong>
-      <strong class="en">Location-based services</strong>
+      <strong class="en">Location-based <br>services</strong>
     </div>
     <!-- mainTopTitle -->
 

@@ -147,7 +147,7 @@ export default {
   data() {
     return {
       topItems: {
-        sm: '홍보센터',
+        sm: 'Notice',
         ko: '공지사항',
         en: 'Notice',
       },

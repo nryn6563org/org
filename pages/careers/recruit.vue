@@ -9,6 +9,16 @@
       </span>
     </div>
 
+    <div class="p-[35px_20px_0]">
+      <strong>채용절차</strong>
+
+      <p class="pt-5">
+        <img class="ko" src="~/assets/image/recruit.png" alt="채용절차" />
+        <img class="en" src="~/assets/image/recruit_en.png" alt="채용절차" />
+      </p>
+    </div>
+    <!--  -->
+
     <div id="recruit" class="board">
       <div>
         <strong>상시채용</strong>

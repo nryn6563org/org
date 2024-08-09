@@ -1,14 +1,11 @@
 <template>
   <div id="aboutus">
-    <div class="title">
-      <span>Our Vision</span>
-      <strong class="ko">비전</strong>
-      <strong class="en">VISION</strong>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- //title -->
 
     <div class="visual">
-      <img src="~/assets/image/vision.png" alt="테크비전" />
+      <img class="ko" src="~/assets/image/vision.png" alt="테크비전" />
+      <img class="en" src="~/assets/image/vision_en.png" alt="테크비전" />
     </div>
     <!-- //visual -->
 
@@ -30,12 +27,31 @@
 
     <div class="content">
       <div class="mx-auto w-[280px] p-[70px_0_40px]">
-        <img src="~/assets/image/vision2.png" alt="철학" width="280" />
+        <img class="ko" src="~/assets/image/vision2.png" alt="철학" width="280" />
+        <img class="en" src="~/assets/image/vision2_en.png" alt="철학" width="280" />
       </div>
     </div>
     <!-- //content -->
   </div>
 </template>
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'Our Vision',
+        ko: '비전',
+        en: 'Our Values',
+      },
+    }
+  },
+}
+</script>
 
 <style scoped>
 .vision_list {

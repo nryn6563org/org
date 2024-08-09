@@ -24,7 +24,10 @@
 
       <div class="rassi_tabContent">
         <div v-if="activeTab === 'tab1'" class="tabCont">
-          <div class="vi"><img src="~/assets/image/axrassi/pms.png" alt="pms"></div>
+          <div class="vi">
+            <img class="ko" src="~/assets/image/axrassi/pms.png" alt="pms">
+            <img class="en" src="~/assets/image/axrassi/pms_en.png" alt="pms">
+          </div>
 
           <div class="txt">
             <div class="top">
@@ -38,6 +41,14 @@
                 투자자가 종목 또는 포트폴리오를 선택할 수 있도록 지원하는 시스템 <br>
                 개인별 투자 성향이나 투자 목표에 따라 다양한 형태로 구성 가능 <br>
                 기본적 분석 기반의 알고리즘, 차트/수급 기술적 분석 기반의 알고리즘, 다양한 형태의 AI알고리즘까지 수용 가능한 오픈형 시스템
+              </span>
+              <span class="en">
+                A system that allows investors to choose stocks or 
+                portfolios Can be configured in a variety of ways to 
+                suit individual investment preferences and investment 
+                goals An open system that can accommodate algorithms based on 
+                fundamental analysis, algorithms based on technical analysis, 
+                and various types of AI algorithms. 
               </span>
 
               <span>*PMS( Picking & Portfolio Management System)</span>
@@ -75,6 +86,18 @@
                   (웰스투자자문 2021년부터 2023년말까지 운용수익 92% 달성) <br>
                   NH자산운용 AI엔진 운용 사모펀드 출시 (100억원, 2024.03)
                 </span>
+                <span class="en">
+                  Created and operated stock-specific AI signals that provide optimal 
+                  trading timing for all domestic stocks and ETFs Appeared as a stock AI 
+                  representative on SBS's 2021 New Year's special "AI vs. Humans" 
+                  (achieved 42% annualized outperformance compared to the stock market) 
+                  “RASSI Trading Assistant” No. 1 in sales in the financial sector of 
+                  Google Android Market (February 2024) Provided customized investment system
+                  for investment advisory firms (Achieved 92% return on investment from 
+                  2021 to the end of 2023 for Wealth Investment Advisory) 
+                  Launched NH Asset Management AI engine-managed 
+                  private equity fund (KRW 10 billion, March 2024)
+                </span>
 
                 <span>*SMS( Signal Management System)</span>
                 
@@ -90,7 +113,10 @@
         <!-- // -->
          
         <div v-if="activeTab === 'tab3'" class="tabCont">
-          <div class="vi"><img src="~/assets/image/axrassi/tms.png" alt="pms"></div>
+          <div class="vi">
+            <img class="ko" src="~/assets/image/axrassi/tms.png" alt="tms">
+            <img class="en" src="~/assets/image/axrassi/tms_en.png" alt="tms">
+          </div>
 
             <div class="txt">
               <div class="top">
@@ -108,6 +134,18 @@
                   투자자문사 등 맞춤형 투자 시스템 제공 <br>
                   (웰스투자자문 2021년부터 2023년말까지 운용수익 92% 달성) <br>
                   NH자산운용 AI엔진 운용 사모펀드 출시 (100억원, 2024.03)
+                </span>
+
+                <span class="en">
+                  A system that enables AI to learn stock market forces such as stock
+                   quotes and execution status to buy low and sell high. 
+                   For customer orders, establish AI-based optimal order strategies 
+                   that reflect market/stock fluctuations in real time, and 
+                   automatically manage order time, number of divisions, and 
+                   order price. Equipped with various order processing technologies such 
+                   as open order processing, prevention of chasing trading, and 
+                   real-time order status reporting in addition to 
+                   AI responsive optimal order strategy
                 </span>
 
                 <span>*SMS( Signal Management System)</span>
@@ -136,7 +174,7 @@ export default {
   data () {
     return {
       topItem1 : {
-        sm: "AI",
+        sm: "AX RASSI",
         ko: "AX 라씨",
         en: "AX RASSI"
       },

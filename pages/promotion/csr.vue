@@ -40,9 +40,9 @@ export default {
   data() {
     return {
       topItems: {
-        sm: '홍보센터',
+        sm: 'Corporate Social Responsibility',
         ko: '사회공헌활동',
-        en: 'Social Media',
+        en: 'Corporate Social Responsibility',
       }
     }
   }

@@ -1,10 +1,6 @@
 <template>
   <div id="aboutus">
-    <div class="title">
-      <span>Intellectual property</span>
-      <strong class="ko">지식재산권</strong>
-      <strong class="en">Intellectual property</strong>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- //title -->
 
     <div class="text-center txt">
@@ -355,6 +351,25 @@
     <!-- //content -->
   </div>
 </template>
+
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'Intellectual property',
+        ko: '지적재산권',
+        en: 'Intellectual property',
+      },
+    }
+  },
+}
+</script>
 
 <style scoped>
 #aboutus .txt {

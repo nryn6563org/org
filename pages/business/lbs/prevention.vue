@@ -4,7 +4,8 @@
 
     <div class="cont">
       <p class="px-5">
-        <img src="~/assets/image/lbs/safekeeper.png" alt="" />
+        <img class="ko" src="~/assets/image/lbs/safekeeper.png" alt="" />
+        <img class="en" src="~/assets/image/lbs/safekeeper_en.png" alt="" />
       </p>
 
       <div class="s-cont">
@@ -48,7 +49,7 @@ export default {
   data() {
     return {
       topItems: {
-        sm: '위치기반솔루션',
+        sm: 'SafeKeeper Service',
         ko: '안심키퍼서비스',
         en: 'SafeKeeper Service',
       },

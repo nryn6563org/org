@@ -129,7 +129,7 @@ export default {
   data() {
     return {
       topItems: {
-        sm: '홍보센터',
+        sm: 'Inquiry',
         ko: '문의하기',
         en: 'Inquiry',
       }

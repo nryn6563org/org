@@ -1,10 +1,6 @@
 <template>
   <div id="aboutus">
-    <div class="title">
-      <span>Contact</span>
-      <strong class="ko">오시는 길</strong>
-      <strong class="en">Directions </strong>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- //title -->
 
     <div class="content">
@@ -67,6 +63,25 @@
     <!-- //content -->
   </div>
 </template>
+
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'Contact',
+        ko: '오시는 길',
+        en: 'Contact',
+      },
+    }
+  },
+}
+</script>
 
 <style scoped>
 .content {

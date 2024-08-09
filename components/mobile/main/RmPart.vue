@@ -2,7 +2,7 @@
     <section>
         <div class="mainTopTitle">
             <strong class="ko">리스크관리솔루션</strong>
-            <strong class="en"></strong>
+            <strong class="en">Risk Management <br>Solution</strong>
         </div>
         <!-- mainTopTitle -->
         <div class="mainTopTitleGuide">

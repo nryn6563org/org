@@ -1,10 +1,6 @@
 <template>
   <div id="aboutus">
-    <div class="title">
-      <span>Certification</span>
-      <strong class="ko">인증</strong>
-      <strong class="en">Certification</strong>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- //title -->
 
     <div class="content">
@@ -79,6 +75,25 @@
     <!-- //content -->
   </div>
 </template>
+
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'Certification',
+        ko: '인증',
+        en: 'Certification',
+      },
+    }
+  },
+}
+</script>
 
 <style scoped>
 .content {

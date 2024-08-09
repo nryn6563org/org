@@ -4,14 +4,23 @@
 
     <div class="cont pt-[15px]">
       <div class="vi">
-        <img src="~/assets/image/ontoup.png" alt="온투업" />
+        <img class="ko" src="~/assets/image/ontoup.png" alt="온투업" />
+        <img class="en" src="~/assets/image/ontoup_en.png" alt="온투업" />
       </div>
       <div class="txt">
 
-        <span>
+        <span class="ko">
           온라인연계신용대출상품의 기관투자자를 대상으로 채권(대출)투자를 안정적으로 관리할 수 있도록 도와주는 Fin-Tech 시스템 <br><br>
           대형 신용평가사보다 우수한 성능의 자체 신용평가모델 보유 <br><br>
           * 온투업 (온라인투자연계금융업, 옛 P2P)
+        </span>
+
+        <span>
+          A fintech system that helps institutional <br>
+          investors in online-linked credit loan products <br>
+          manage bond (loan) investments in a stable <br> manner. <br>
+          Own proprietary credit models that outperform <br>
+          the major credit bureaus
         </span>
 
         
@@ -41,9 +50,9 @@ export default {
   data() {
     return {
       topItems: {
-        sm: '리스크관리솔루션',
+        sm: 'Online Investment-Linked Financial Business RMS System',
         ko: '온투업RMS시스템',
-        en: 'RMS System',
+        en: 'Online Investment-Linked Financial Business RMS System',
       },
     }
   },

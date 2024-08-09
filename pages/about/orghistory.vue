@@ -1,10 +1,6 @@
 <template>
   <div id="aboutus">
-    <div class="title">
-      <span>Milestones</span>
-      <strong class="ko">연혁</strong>
-      <strong class="en">Milestones</strong>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- //title -->
 
     <div class="content">
@@ -35,7 +31,22 @@
 </template>
 
 <script scoped>
+import CommonTop from '@/components/CommonTop.vue'
+
 export default {
+
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'Milestones',
+        ko: '연혁',
+        en: 'Milestones',
+      },
+    }
+  },
   mounted() {
     const paginationList = ['2015~창립', '2018~2016','현재~2019']
     const paginationListE = ['2015~Establish', '2018~2016', 'Now~2019']

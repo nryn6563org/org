@@ -49,8 +49,8 @@ export default {
         { to: '/promotion/notice', ko: '공지사항', en: 'Notice' },
         { to: '/promotion/news', ko: 'NEWS', en: 'NEWS' },
         { to: '/promotion/social', ko: '소셜미디어', en: 'Socials Media' },
-        { to: '/promotion/csr', ko: '사회공헌활동', en: 'NEWS' },
-        { to: '/promotion/contact', ko: '문의하기', en: 'NEWS' }
+        { to: '/promotion/csr', ko: '사회공헌활동', en: 'CSR' },
+        { to: '/promotion/contact', ko: '문의하기', en: 'Inquiry' }
         // ... 다른 메뉴 아이템들
       ],
     }

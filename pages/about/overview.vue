@@ -1,10 +1,6 @@
 <template>
   <div id="aboutus">
-    <div class="title">
-      <span>Corporate Overview</span>
-      <strong class="ko">회사 개요</strong>
-      <strong class="en">Corporate Overview</strong>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- //title -->
 
     <!-- <div class="visual">
@@ -159,6 +155,25 @@
     <!-- //content -->
   </div>
 </template>
+
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'Corporate Overview',
+        ko: '회사개요',
+        en: 'Corporate Overview',
+      },
+    }
+  },
+}
+</script>
 
 <style scoped>
 /* overview */
