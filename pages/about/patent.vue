@@ -24,6 +24,7 @@
       <div class="patent_tbl">
         <div class="top">
           <strong class="ko">AI<em>(25건)</em></strong>
+          <strong class="en">AI<em>(25)</em></strong>
         </div>
         <!-- // -->
         <table width="100%">

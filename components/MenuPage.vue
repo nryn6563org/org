@@ -206,7 +206,7 @@
           <NuxtLink to="/promotion/csr" class="ko">사회공헌활동</NuxtLink>
           <NuxtLink to="/promotion/csr" class="en">CSR</NuxtLink>
           <NuxtLink to="/promotion/contact" class="ko">문의하기</NuxtLink>
-          <NuxtLink to="/promotion/contact" class="en">Contact</NuxtLink>
+          <NuxtLink to="/promotion/contact" class="en">Inquiry</NuxtLink>
         </div>
         <!-- depth2 -->
       </div>

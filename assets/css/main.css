@@ -313,6 +313,6 @@ em {
 .eng .title span{
   @apply hidden
 }
-.eng .top em{
+.eng .top > em{
   @apply hidden
 }

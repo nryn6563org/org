@@ -12,9 +12,11 @@
       <p>
         <img :src="rndItems.url" alt="비주얼이미지" />
       </p>
-      <span class="ko" v-html="rndItems.imgTitle"></span>
-      <strong class="ko" v-html="rndItems.imgTitle2"></strong>
-      <strong class="en" v-html="rndItems.imgTitleEN"></strong>
+      <div>
+        <span class="ko" v-html="rndItems.imgTitle"></span>
+        <strong class="ko" v-html="rndItems.imgTitle2"></strong>
+        <strong class="en" v-html="rndItems.imgTitleEN"></strong>
+      </div>
     </div>
     <!-- //visual -->
 
@@ -90,10 +92,13 @@ export default {
   @apply text-[32px] text-[#141414] tracking-[-0.352px] font-bold leading-10 text-center;
 }
 .visual {
-  @apply relative w-full min-h-[341px] flex items-center flex-col justify-center gap-5;
+  @apply relative w-full min-h-[341px];
 }
-.visual p{
-  @apply absolute 
+.visual p {
+  @apply w-full
+}
+.visual div{
+  @apply absolute inset-0 w-full h-full flex items-center flex-col justify-center gap-5;
 }
 .visual span {
   @apply z-20 text-[16px] leading-5 text-white text-center;

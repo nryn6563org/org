@@ -158,7 +158,7 @@ export default {
   @apply text-black text-[16px] font-bold
 }
 #contact .user_i_list .top em{
-  @apply text-[#FF1818] text-[14px]
+  @apply text-[#FF1818] text-[14px] !block
 }
 #contact .list-w .list{
   @apply pt-5 flex items-start
@@ -167,10 +167,11 @@ export default {
   background:none;
 }
 #contact .list-w .list strong{
-  @apply w-[80px] h-[35px] leading-[35px] text-[16px] text-black font-bold bg-[url('~/assets/image/input_bullet.png')] bg-no-repeat bg-[64px_12px] bg-[length:8px_8px]
+  @apply w-[120px] h-[35px] leading-[35px] text-[16px] text-black font-bold flex gap-2.5
+  after:bg-[url('~/assets/image/input_bullet.png')] after:bg-no-repeat after:bg-[0_12px] after:bg-[length:8px_8px] after:content-[''] after:w-5 after:h-[35px]
 }
 #contact .list-w .list div{
-  @apply w-[calc(100%-80px)]
+  @apply w-[calc(100%-120px)]
 }
 .rdoList{
   @apply flex flex-wrap w-full gap-x-[30px] gap-y-2.5 py-[3px]
@@ -179,10 +180,10 @@ export default {
   @apply flex gap-[6px] items-center
 }
 #contact .list-w .list div input[type="text"]{
-  @apply w-[calc(100%-20px)] ml-5 border-[1px] border-[#E6E6EB] rounded-[8px] p-2.5 placeholder:text-[14px] placeholder:text-[#9395a1] text-[14px] text-black
+  @apply w-[calc(100%-20px)] border-[1px] border-[#E6E6EB] rounded-[8px] p-2.5 placeholder:text-[14px] placeholder:text-[#9395a1] text-[14px] text-black
 }
 #contact .list-w .list div textarea{
-  @apply w-[calc(100%-20px)] h-[80px] ml-5 border-[1px] border-[#E6E6EB] rounded-[8px] p-2.5 placeholder:text-[14px] placeholder:text-[#9395a1] text-[14px] text-black
+  @apply w-[calc(100%-20px)] h-[80px] border-[1px] border-[#E6E6EB] rounded-[8px] p-2.5 placeholder:text-[14px] placeholder:text-[#9395a1] text-[14px] text-black
 }
 .agree{
   @apply pt-5 w-full flex flex-col gap-2.5

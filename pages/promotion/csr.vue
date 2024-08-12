@@ -66,7 +66,7 @@ export default {
   @apply text-[16px] text-black font-bold
 }
 .csr_list .list div{
-  @apply w-full flex items-start
+  @apply w-full flex items-start cursor-pointer
 }
 .csr_list .list div em{
   @apply w-[70px] text-[14px] leading-[18px] text-black font-bold
