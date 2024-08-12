@@ -22,13 +22,14 @@
     <div id="recruit" class="board">
       <div>
         <strong>상시채용</strong>
-        <button class="list">
+        <button class="list complete">
           <div class="obj">
             <span>상시채용 모집 중</span>
           </div>
           <div class="date">
             <span>2023-01-26~2023-06-30</span>
           </div>
+          <em class="bullet">마감</em>
         </button>
         <!-- // -->
 
@@ -169,10 +170,16 @@ export default {
   @apply w-full  pb-4 block;
 }
 #recruit.board div button {
-  @apply rounded-[12px] bg-white shadow-[0px_4px_12px_0px_rgba(0,0,0,0.15)] w-full py-6 px-5 mt-2.5 text-left block;
+  @apply rounded-[12px] bg-white shadow-[0px_4px_12px_0px_rgba(0,0,0,0.15)] w-full py-6 px-5 mt-2.5 text-left block relative;
 }
 #recruit.board div button .obj {
-  @apply text-[16px] text-[#141414] leading-6 tracking-[-0.176px];
+  @apply text-[16px] text-[#141414] leading-6 tracking-[-0.176px] flex justify-between items-center;
+}
+#recruit.board div button.complete .obj{
+  @apply text-[#9395A1]
+}
+#recruit.board div button .bullet{
+  @apply w-10 h-7 flex justify-center items-center bg-[#FF4471] text-[14px] text-white rounded-[6px] absolute top-[30px] right-5
 }
 #recruit.board div button .date {
   @apply pt-1 text-[12px] text-[#9395a1] tracking-[-0.132px] leading-4;
