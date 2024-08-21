@@ -41,4 +41,7 @@ section div span em {
 section div span:last-child{
   @apply text-[14px] leading-5 text-black
 }
+section div a span:last-child{
+  @apply text-[14px] leading-5 text-black
+}
 </style>

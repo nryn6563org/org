@@ -107,6 +107,6 @@ section .top{
   @apply leading-5 text-[16px] text-[#5368ff] font-bold
 }
 .txt div span{
-  @apply text-[14px] leading-4 text-[#444]
+  @apply text-[14px] leading-5 text-[#444]
 }
 </style>
