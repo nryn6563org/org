@@ -74,7 +74,6 @@ em {
   @apply block text-[16px] font-bold leading-6 tracking-[-0.176px] text-neutral-900;
 }
 .MainPage__splide .swiper-slide div .txt.en strong, .MainPage__splide .swiper-slide > a .txt.en strong {
-  @apply text-[13px];
 }
 .MainPage__splide .swiper-slide div .txt span, .MainPage__splide .swiper-slide > a .txt span {
   @apply block text-[14px] font-light tracking-[-0.154px] text-neutral-900 mt-[6px];

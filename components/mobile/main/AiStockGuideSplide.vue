@@ -74,7 +74,7 @@
           </div>
 
           <div
-            class="vi bg-[url('~/assets/image/main/aistock/vi01.png')] bg-no-repeat bg-[length:81px_93px] ;"
+            class="vi bg-[url('~/assets/image/main/aistock/vi04.png')] bg-no-repeat bg-[length:81px_auto] ;"
           ></div>
         </NuxtLink>
       </div>
