@@ -83,7 +83,7 @@ export default {
 </script>
 
 <style scoped>
-.content {
-  @apply mt-5;
+.content{
+  @apply pt-2.5
 }
 </style>

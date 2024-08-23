@@ -154,10 +154,9 @@ export default {
 
 <style scoped>
 #careers > .top {
-  @apply pb-0;
 }
 #careers > .txt {
-  @apply mt-2.5 w-full text-[14px] tracking-[-0.154px] text-center leading-[18px];
+  @apply w-full text-[14px] tracking-[-0.154px] text-center leading-[18px];
 }
 #recruit.board {
   @apply w-[calc(100%-40px)] border-t-[1px] border-[#444] mx-auto mt-9 pb-[120px];

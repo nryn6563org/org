@@ -85,7 +85,7 @@ export default {
 
 <style scoped>
 .content {
-  @apply mt-6 px-[14px] pb-[30px];
+  @apply mt-[50px] px-[14px] pb-[30px];
 }
 .txt {
   @apply block w-full mt-5 text-[14px] text-[#444] leading-5 tracking-[-0.154px];

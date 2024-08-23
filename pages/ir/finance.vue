@@ -463,7 +463,7 @@ export default {
 
 <style scoped>
 #ir > .top {
-  @apply !pb-[35px]
+  @apply !pb-[50px]
 }
 #finance{
   @apply w-full flex flex-col gap-[30px] pb-[100px]

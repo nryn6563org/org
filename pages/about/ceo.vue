@@ -1,10 +1,6 @@
 <template>
   <div id="aboutus">
-    <div class="title">
-      <span>CEO Message</span>
-      <strong class="ko">CEO메시지</strong>
-      <strong class="en">CEO Message</strong>
-    </div>
+    <CommonTop :top-items="topItems" />
     <!-- //title -->
 
     <div class="visual">
@@ -122,6 +118,24 @@
     <!-- //content -->
   </div>
 </template>
+<script>
+import CommonTop from '@/components/CommonTop.vue'
+
+export default {
+  components: {
+    CommonTop,
+  },
+  data() {
+    return {
+      topItems: {
+        sm: 'CEO Message',
+        ko: 'CEO메시지',
+        en: 'CEO Message',
+      },
+    }
+  },
+}
+</script>
 
 <style scoped>
 .ceo_con {

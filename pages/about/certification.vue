@@ -97,7 +97,7 @@ export default {
 
 <style scoped>
 .content {
-  @apply mt-[60px] px-5;
+  @apply mt-[50px] px-5;
 }
 .award_list {
   @apply w-full flex flex-col gap-[30px];

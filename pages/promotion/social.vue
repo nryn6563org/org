@@ -103,7 +103,7 @@ export default {
 
 <style scoped>
 #promotion > .top {
-  @apply !pb-[18px];
+  @apply !pb-[50px];
 }
 #social {
   @apply w-full pt-[50px] relative;

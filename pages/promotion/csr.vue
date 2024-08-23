@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 #promotion > .top {
-  @apply !pb-[35px]
+  @apply !pb-[50px]
 }
 #csr{
   @apply w-full px-5 pb-[100px]

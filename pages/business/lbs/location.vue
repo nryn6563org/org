@@ -3,7 +3,7 @@
     <CommonTop :top-items="topItems" />
 
     <div class="cont">
-      <p class="p-[55px_24px_0]">
+      <p class="p-[0_24px_0]">
         <img class="ko" src="~/assets/image/lbs/prevention.png" alt="" />
         <img class="en" src="~/assets/image/lbs/prevention_en.png" alt="" />
       </p>

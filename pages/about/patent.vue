@@ -383,7 +383,7 @@ export default {
   @apply pt-[5px] w-full text-center text-[14px] text-[#9395a1] leading-[18px];
 }
 .content{
-  @apply flex flex-col gap-10
+  @apply flex flex-col gap-10 pt-2.5
 }
 .patent_tbl{
   @apply w-full px-5

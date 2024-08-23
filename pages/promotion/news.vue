@@ -98,7 +98,7 @@ export default {
 
 <style scoped>
 #promotion > .top {
-  @apply pb-9;
+  @apply pb-[50px];
 }
 
 #news.board {

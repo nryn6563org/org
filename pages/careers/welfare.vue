@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 #careers .txt {
-  @apply px-5 mt-[35px] text-[14px] text-[#141414] tracking-[-0.154px];
+  @apply px-5 text-[14px] text-[#141414] tracking-[-0.154px];
 }
 .content {
   @apply mt-10 px-5 pb-[100px];

@@ -97,8 +97,8 @@ export default {
 .visual p {
   @apply w-full
 }
-.visual div{
-  @apply absolute inset-0 w-full h-full flex items-center flex-col justify-center gap-5;
+.visual > div{
+  @apply absolute inset-0 w-full h-full flex items-center flex-col justify-center gap-5 px-[35px];
 }
 .visual span {
   @apply z-20 text-[16px] leading-5 text-white text-center;

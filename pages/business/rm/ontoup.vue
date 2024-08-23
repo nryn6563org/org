@@ -2,7 +2,7 @@
   <div id="rm">
     <CommonTop :top-items="topItems" />
 
-    <div class="cont pt-[15px]">
+    <div class="cont">
       <div class="vi">
         <img class="ko" src="~/assets/image/ontoup.png" alt="온투업" />
         <img class="en" src="~/assets/image/ontoup_en.png" alt="온투업" />

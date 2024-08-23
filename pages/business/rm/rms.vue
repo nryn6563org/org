@@ -2,7 +2,7 @@
   <div id="rm">
     <CommonTop :top-items="topItems" />
 
-    <div class="cont pt-[15px]">
+    <div class="cont">
       <div class="rms">
         <div class="top-[8px] left-[110px]">
           <span class="ko">

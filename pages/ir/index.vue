@@ -102,7 +102,7 @@ export default {
 
 <style scoped>
 #investor > .top {
-  @apply pb-9;
+  @apply pb-[50px];
 }
 #ir {
   @apply w-full;

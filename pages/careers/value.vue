@@ -31,6 +31,6 @@ export default {
 
 <style scoped>
 .values {
-  @apply w-full px-5 pt-[35px] pb-[100px]
+  @apply w-full px-5 pb-[100px]
 }
 </style>

@@ -199,7 +199,7 @@ section .top{
   @apply pb-[26px]
 }
 .stxt{
-  @apply w-full text-center pb-[90px] text-[#444] text-[14px]
+  @apply w-full text-center pb-[50px] text-[#444] text-[14px]
 }
 #sec02{
   @apply w-full p-[16px_0_200px]
@@ -214,7 +214,7 @@ section .top{
   @apply border-b-[2px] border-black text-black
 }
 .rassi_tabContent{
-  @apply w-full px-5 mt-[45px]
+  @apply w-full px-5 mt-[50px]
 }
 .tabCont{
   @apply w-full 
