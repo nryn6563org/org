@@ -5,7 +5,8 @@
 
     <div class="content">
       <div class="map">
-        <img src="~/assets/image/map.png" alt="맵 데모 이미지" />
+        <img src="~/assets/image/map.png" alt="맵 데모 이미지" class="ko" />
+        <img src="~/assets/image/map_en.png" alt="맵 데모 이미지" class="en" />
       </div>
       <!-- // -->
 
