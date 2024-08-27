@@ -111,13 +111,13 @@ export default {
   @apply flex flex-col items-start gap-[6px] w-full h-fit;
 }
 .board .list .obj {
-  @apply text-[16px] text-[#141414] tracking-[-0.176px] truncate h-5 leading-5 p-0 m-0 text-left font-bold;
+  @apply text-[16px] text-[#141414] tracking-[-0.176px] truncate h-5 leading-5 p-0 m-0 text-left font-bold w-full;
 }
 .board .list.fst .obj {
   @apply font-bold;
 }
 .board .list .cont {
-  @apply text-[16px] text-[#444] leading-6 line-clamp-5 text-ellipsis  p-[14px_0_0] m-0 text-left;
+  @apply text-[16px] text-[#444] leading-6 line-clamp-5 text-ellipsis  p-[14px_0_0] m-0 text-left w-full h-[134px];
 }
 .board .list .date {
   @apply text-left text-[12px] text-[#9395a1] tracking-[-0.132px];

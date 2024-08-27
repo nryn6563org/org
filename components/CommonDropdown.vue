@@ -87,7 +87,7 @@ export default {
   @apply h-8 leading-4 w-full flex justify-between items-center text-[12px] text-neutral-900 tracking-[-0.132px];
 }
 .droplist {
-  @apply py-2.5 border-[#f0f0f0] border-[1px] absolute top-8 left-0 bg-white z-20 hidden flex-col items-start w-full gap-2 bg-opacity-80 truncate
+  @apply py-2.5 border-[#f0f0f0] border-[1px] absolute top-8 left-0 bg-white z-20 hidden flex-col items-start w-full gap-2 truncate
 }
 .droplist.active {
   @apply flex;
