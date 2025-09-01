@@ -1,5 +1,7 @@
 <template>
   <div v-if="isVisible" class="mkModal">
+
+    <div class="modalImg">
     
     <img
       src="~/assets/image/modal/nv_cloud.png"
@@ -16,6 +18,7 @@
         target="_blank"
       />
     </map>
+    </div>
 
     <div class="todayClose">
       <button @click="closeModalToday">오늘하루 그만보기</button>
@@ -58,10 +61,13 @@ export default {
 </script>
 <style scoped>
 .mkModal {
-  @apply fixed inset-0 h-full w-full max-w-[36rem] z-[100] bg-black bg-opacity-70 flex flex-col items-center justify-center px-5 gap-1;
+  @apply fixed inset-0 h-full w-full z-[100] bg-black bg-opacity-70 flex flex-col items-center justify-center px-5 gap-1;
+}
+.modalImg{
+  @apply max-w-[36rem]
 }
 .todayClose {
-  @apply w-full flex justify-between gap-5;
+  @apply w-full flex justify-between gap-5 max-w-[36rem];
 }
 .todayClose button {
   @apply text-white text-[16px] h-[32px] flex items-center opacity-80;
