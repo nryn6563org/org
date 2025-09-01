@@ -18,6 +18,8 @@
     <!-- // -->
     <MobileMainThinkQna />
     <!-- // -->
+     <MobileModalMkModal />
+    <!-- // -->
   </div>
 </template>
 

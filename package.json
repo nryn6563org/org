@@ -16,6 +16,7 @@
   "dependencies": {
     "@nuxt/image": "^0.7.1",
     "core-js": "^3.25.3",
+    "image-map-resizer": "^1.0.10",
     "nuxt": "^2.17.1",
     "vue": "^2.7.10",
     "vue-router": "^3.5.1",
